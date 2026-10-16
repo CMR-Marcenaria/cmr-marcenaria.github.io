@@ -21,7 +21,6 @@
       <img src="assets/logo.jpg" alt="">
       <span class="marca-textos"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Móveis rústicos</span></span>
     </a>
-    <a class="botao whats" id="topo-whats" target="_blank" rel="noopener noreferrer" hidden>WhatsApp</a>
   </div></header>
 
   <section class="hero">
@@ -31,10 +30,6 @@
         <h1>Mesas rústicas de <span>madeira maciça</span></h1>
         <p>Peças únicas, feitas à mão com madeiras nobres. Escolha a sua mesa a pronta entrega ou fale com a gente para fazer sob medida.</p>
         <div class="numeros" id="numeros"></div>
-        <div class="linha-botoes">
-          <a href="#catalogo" class="botao ouro">Ver o catálogo</a>
-          <a class="botao secundario" id="hero-whats" target="_blank" rel="noopener noreferrer" hidden>Falar no WhatsApp</a>
-        </div>
       </div>
     </div>
   </section>
@@ -112,12 +107,6 @@
         ...(madeiras.size ? [[madeiras.size, "madeiras nobres"]] : []),
         ...(maior ? [[`${(maior / 100).toLocaleString("pt-BR")} m`, "a maior mesa"]] : []),
       ].map(([n, t]) => `<div class="numero"><b>${n}</b><span>${t}</span></div>`).join("");
-
-      const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, "Olá! Vi o catálogo da CMR Marcenaria e gostaria de mais informações.");
-      for (const id of ["topo-whats", "hero-whats"]) {
-        const a = document.getElementById(id);
-        if (whats) { a.href = whats; a.hidden = false; }
-      }
     }
 
     document.getElementById("filtros").addEventListener("click", (e) => {
