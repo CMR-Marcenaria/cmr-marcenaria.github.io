@@ -6,375 +6,375 @@ Ao responder o cliente, envie o nome, as medidas, o valor e o link da mesa.
 [98] Banquetas altas
   Medidas: 50 x 50 cm (altura 70 cm) · 4 lugares
   Valor à vista: R$ 550,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=98
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/98-1-h6004c.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=98
+  Foto: https://cmr-marcenaria.github.io/fotos/98-1-h6004c.jpg
 
 [97] Cadeiras alphas
   Medidas: 50 x 50 cm (altura 50 cm) · 4 lugares
   Valor à vista: R$ 470,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=97
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/97-1-a8g20z.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=97
+  Foto: https://cmr-marcenaria.github.io/fotos/97-1-a8g20z.jpg
 
 [59] Cadeiras Paris
   Medidas: 50 x 50 cm (altura 50 cm) · 4 lugares
   Valor à vista: R$ 450,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=59
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/59-1-qgvavv.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=59
+  Foto: https://cmr-marcenaria.github.io/fotos/59-1-qgvavv.jpg
 
 [60] Cadeiras poltrona
   Medidas: 60 x 60 cm (altura 50 cm) · 4 lugares
   Valor à vista: R$ 525,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=60
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/60-1-r20fom.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=60
+  Foto: https://cmr-marcenaria.github.io/fotos/60-1-r20fom.jpg
 
 [44] Mesa prancha 4 lugares
   Medidas: 100 x 70 cm (altura 80 cm) · 4 lugares
   Valor à vista: R$ 1.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=44
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/44-1-i0h83o.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=44
+  Foto: https://cmr-marcenaria.github.io/fotos/44-1-i0h83o.jpg
 
 [39] Mesa prancha 4 lugares
   Medidas: 100 x 100 cm (altura 80 cm) · 4 lugares
   Valor à vista: R$ 1.400,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=39
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/39-1-ze1ba8.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=39
+  Foto: https://cmr-marcenaria.github.io/fotos/39-1-ze1ba8.jpg
 
 [48] Mesa prancha orgânica 8 lugares
   Medidas: 140 x 140 cm (altura 80 cm) · 8 lugares
   Valor à vista: R$ 2.600,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=48
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/48-1-p3swyv.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=48
+  Foto: https://cmr-marcenaria.github.io/fotos/48-1-p3swyv.jpg
 
 [33] Mesa prancha 4 lugares ct 1
   Medidas: 140 x 95 cm (altura 80 cm) · 4 lugares
   Valor à vista: R$ 1.400,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=33
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/33-1-04irmy.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=33
+  Foto: https://cmr-marcenaria.github.io/fotos/33-1-04irmy.jpg
 
 [101] Bancos jardim
   Medidas: 160 x 50 cm (altura 50 cm) · 4 lugares
   Valor à vista: R$ 3.800,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=101
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/101-1-rkos12.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=101
+  Foto: https://cmr-marcenaria.github.io/fotos/101-1-rkos12.jpg
 
 [72] Mesa Pequia
   Medidas: 160 x 90 cm (altura 80 cm) · 4 lugares
   Madeira: Pequiá
   Valor à vista: R$ 2.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=72
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/72-1-vn5jsk.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=72
+  Foto: https://cmr-marcenaria.github.io/fotos/72-1-vn5jsk.jpg
 
 [92] Mesa prancha
   Medidas: 190 x 90 cm (altura 80 cm) · 5 lugares
   Valor à vista: Sob consulta
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=92
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/92-1-ei3xu7.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=92
+  Foto: https://cmr-marcenaria.github.io/fotos/92-1-ei3xu7.jpg
 
 [89] Mesa prancha
   Medidas: 190 x 85 cm (altura 80 cm) · 5 lugares
   Valor à vista: R$ 2.999,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=89
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/89-1-bedyln.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=89
+  Foto: https://cmr-marcenaria.github.io/fotos/89-1-bedyln.jpg
 
 [112] Mesa ipê
   Medidas: 200 x 90 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Valor à vista: Sob consulta
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=112
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/112-1-8h2ef1.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=112
+  Foto: https://cmr-marcenaria.github.io/fotos/112-1-8h2ef1.jpg
 
 [96] Mesa redonda
   Medidas: 200 x 200 cm (altura 80 cm) · Categoria 1 · 8 lugares
   Valor à vista: R$ 2.700,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=96
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/96-1-ppiwnn.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=96
+  Foto: https://cmr-marcenaria.github.io/fotos/96-1-ppiwnn.jpg
 
 [94] Mesa garapeira
   Medidas: 200 x 100 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Garapeira
   Valor à vista: R$ 2.990,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=94
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/94-1-638k6h.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=94
+  Foto: https://cmr-marcenaria.github.io/fotos/94-1-638k6h.jpg
 
 [90] Mesa prancha pequiá
   Medidas: 200 x 88 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.000,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=90
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/90-1-qcjfqc.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=90
+  Foto: https://cmr-marcenaria.github.io/fotos/90-1-qcjfqc.jpg
 
 [88] Mesa prancha pequiá
   Medidas: 200 x 90 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.050,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=88
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/88-1-enwhhh.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=88
+  Foto: https://cmr-marcenaria.github.io/fotos/88-1-enwhhh.jpg
 
 [85] Mesa Pequia
   Medidas: 200 x 95 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.290,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=85
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/85-1-ecsrsa.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=85
+  Foto: https://cmr-marcenaria.github.io/fotos/85-1-ecsrsa.jpg
 
 [76] Mesa pequiá prancha
   Medidas: 200 x 90 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 2.700,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=76
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/76-1-6d1eac.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=76
+  Foto: https://cmr-marcenaria.github.io/fotos/76-1-6d1eac.jpg
 
 [71] Mesa Pequia
   Medidas: 200 x 85 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 2.999,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=71
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/71-1-yd7vdy.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=71
+  Foto: https://cmr-marcenaria.github.io/fotos/71-1-yd7vdy.jpg
 
 [70] Mesa prancha pequiá
   Medidas: 200 x 85 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 2.999,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=70
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/70-1-snv36a.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=70
+  Foto: https://cmr-marcenaria.github.io/fotos/70-1-snv36a.jpg
 
 [67] Mesa Pequia
   Medidas: 200 x 90 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 2.900,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=67
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/67-1-8u60jt.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=67
+  Foto: https://cmr-marcenaria.github.io/fotos/67-1-8u60jt.jpg
 
 [51] Mesa prancha Pequia
   Medidas: 200 x 100 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pequiá
   Valor à vista: R$ 4.600,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=51
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/51-1-n2m8yl.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=51
+  Foto: https://cmr-marcenaria.github.io/fotos/51-1-n2m8yl.jpg
 
 [32] Bancos industriais
   Medidas: 200 x 30 cm (altura 50 cm) · Categoria 1 · 6 lugares
   Valor à vista: R$ 2.200,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=32
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/32-1-1qv47l.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=32
+  Foto: https://cmr-marcenaria.github.io/fotos/32-1-1qv47l.jpg
 
 [14] Mesa prancha Mirindiba
   Medidas: 200 x 78 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Mirindiba
   Valor à vista: R$ 2.550,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=14
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/14-1-f6a461.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=14
+  Foto: https://cmr-marcenaria.github.io/fotos/14-1-f6a461.jpg
 
 [13] Mesa prancha cozinha Pinheiro
   Medidas: 200 x 90 cm (altura 80 cm) · Categoria 1 · 6 lugares
   Madeira: Pinheiro
   Valor à vista: R$ 2.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=13
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/13-1-bxaz21.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=13
+  Foto: https://cmr-marcenaria.github.io/fotos/13-1-bxaz21.jpg
 
 [95] Mesa redonda
   Medidas: 250 x 250 cm (altura 80 cm) · Categoria 2 · 12 lugares
   Valor à vista: R$ 2.550,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=95
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/95-1-67x4v9.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=95
+  Foto: https://cmr-marcenaria.github.io/fotos/95-1-67x4v9.jpg
 
 [93] Mesa prancha pequiá
   Medidas: 250 x 88 cm (altura 80 cm) · Categoria 2 · 8 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.510,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=93
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/93-1-1hz0il.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=93
+  Foto: https://cmr-marcenaria.github.io/fotos/93-1-1hz0il.jpg
 
 [84] Mesa prancha
   Medidas: 250 x 95 cm (altura 80 cm) · Categoria 2 · 8 lugares
   Valor à vista: R$ 3.480,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=84
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/84-1-qa3a8q.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=84
+  Foto: https://cmr-marcenaria.github.io/fotos/84-1-qa3a8q.jpg
 
 [78] Mesa prancha pequiá
   Medidas: 250 x 80 cm (altura 80 cm) · Categoria 2 · 8 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.325,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=78
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/78-1-pxusgl.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=78
+  Foto: https://cmr-marcenaria.github.io/fotos/78-1-pxusgl.jpg
 
 [06] Mesa prancha Pequia Branco
   Medidas: 250 x 90 cm · Categoria 2 · 8 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.200,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=06
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/06-1-0dakmr.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=06
+  Foto: https://cmr-marcenaria.github.io/fotos/06-1-0dakmr.jpg
 
 [10] Mesa prancha Pequia com Resina
   Medidas: 260 x 120 cm · Categoria 2 · 8 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.450,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=10
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/10-1-xlpbkv.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=10
+  Foto: https://cmr-marcenaria.github.io/fotos/10-1-xlpbkv.jpg
 
 [58] Mesa prancha pequiá
   Medidas: 265 x 100 cm (altura 80 cm) · Categoria 2 · 8 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.550,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=58
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/58-1-dkv1mb.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=58
+  Foto: https://cmr-marcenaria.github.io/fotos/58-1-dkv1mb.jpg
 
 [110] Mesa prancha
   Medidas: 270 x 90 cm (altura 80 cm) · Categoria 3 · 8 lugares
   Valor à vista: R$ 3.560,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=110
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/110-1-dc5obe.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=110
+  Foto: https://cmr-marcenaria.github.io/fotos/110-1-dc5obe.jpg
 
 [05] Mesa prancha Garapeira
   Medidas: 270 x 90 cm · Categoria 3 · 8 lugares
   Madeira: Garapeira
   Valor à vista: R$ 3.480,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=05
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/05-1-gj6to6.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=05
+  Foto: https://cmr-marcenaria.github.io/fotos/05-1-gj6to6.jpg
 
 [113] Prancha
   Medidas: 280 x 90 cm (altura 80 cm) · Categoria 3 · 9 lugares
   Valor à vista: R$ 3.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=113
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/113-1-rhaolm.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=113
+  Foto: https://cmr-marcenaria.github.io/fotos/113-1-rhaolm.jpg
 
 [56] Mesa prancha Pequia
   Medidas: 280 x 100 cm (altura 80 cm) · Categoria 3 · 9 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.480,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=56
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/56-1-x0k4bl.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=56
+  Foto: https://cmr-marcenaria.github.io/fotos/56-1-x0k4bl.jpg
 
 [111] Mesa e bancos
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Valor à vista: R$ 5.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=111
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/111-1-4njyy8.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=111
+  Foto: https://cmr-marcenaria.github.io/fotos/111-1-4njyy8.jpg
 
 [108] Mesa cascata
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Valor à vista: R$ 8.850,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=108
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/108-1-bwz2c6.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=108
+  Foto: https://cmr-marcenaria.github.io/fotos/108-1-bwz2c6.jpg
 
 [107] Mesa cascata
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Valor à vista: R$ 8.800,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=107
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/107-1-hq8f1g.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=107
+  Foto: https://cmr-marcenaria.github.io/fotos/107-1-hq8f1g.jpg
 
 [106] Mesa cascata
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Valor à vista: R$ 105.000,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=106
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/106-1-mzq9c4.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=106
+  Foto: https://cmr-marcenaria.github.io/fotos/106-1-mzq9c4.jpg
 
 [80] Mesa pequiá
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.950,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=80
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/80-1-5sey0j.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=80
+  Foto: https://cmr-marcenaria.github.io/fotos/80-1-5sey0j.jpg
 
 [75] Mesa prancha
   Medidas: 300 x 90 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Valor à vista: R$ 3.750,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=75
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/75-1-aopbw2.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=75
+  Foto: https://cmr-marcenaria.github.io/fotos/75-1-aopbw2.jpg
 
 [73] Mesa pequiá
   Medidas: 300 x 95 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.850,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=73
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/73-1-8owzc3.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=73
+  Foto: https://cmr-marcenaria.github.io/fotos/73-1-8owzc3.jpg
 
 [69] Mesa Pequia
   Medidas: 300 x 90 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.750,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=69
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/69-1-r30w54.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=69
+  Foto: https://cmr-marcenaria.github.io/fotos/69-1-r30w54.jpg
 
 [55] Mesa prancha Pequia
   Medidas: 300 x 100 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.890,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=55
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/55-1-i6qdh8.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=55
+  Foto: https://cmr-marcenaria.github.io/fotos/55-1-i6qdh8.jpg
 
 [24] Mesa prancha pequiá
   Medidas: 300 x 90 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.200,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=24
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/24-1-uatpqf.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=24
+  Foto: https://cmr-marcenaria.github.io/fotos/24-1-uatpqf.jpg
 
 [21] Mesa prancha Pequia
   Medidas: 300 x 80 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.000,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=21
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/21-1-d3nluq.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=21
+  Foto: https://cmr-marcenaria.github.io/fotos/21-1-d3nluq.jpg
 
 [19] Mesa prancha canela
   Medidas: 300 x 70 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Canela
   Valor à vista: R$ 2.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=19
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/19-1-09nbjx.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=19
+  Foto: https://cmr-marcenaria.github.io/fotos/19-1-09nbjx.jpg
 
 [08] Mesa prancha Pequia (conjunto c/ bancos)
   Medidas: 300 x 95 cm · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 5.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=08
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/08-1-afihvo.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=08
+  Foto: https://cmr-marcenaria.github.io/fotos/08-1-afihvo.jpg
 
 [04] Mesa prancha Pequia
   Medidas: 300 x 100 cm · Categoria 3 · 10 lugares
   Madeira: Pequiá
   Valor à vista: R$ 3.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=04
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/04-1-bo95ic.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=04
+  Foto: https://cmr-marcenaria.github.io/fotos/04-1-bo95ic.jpg
 
 [18] Mesa prancha garapeira
   Medidas: 320 x 90 cm (altura 80 cm) · Categoria 3 · 10 lugares
   Madeira: Garapeira
   Valor à vista: R$ 4.000,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=18
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/18-1-b4mgnh.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=18
+  Foto: https://cmr-marcenaria.github.io/fotos/18-1-b4mgnh.jpg
 
 [109] Mesa cascata
   Medidas: 350 x 100 cm (altura 80 cm) · Categoria 4 · 12 lugares
   Valor à vista: R$ 8.900,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=109
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/109-1-bh8jp2.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=109
+  Foto: https://cmr-marcenaria.github.io/fotos/109-1-bh8jp2.jpg
 
 [16] Mesa prancha Angelin pedra
   Medidas: 400 x 95 cm (altura 80 cm) · Categoria 5 · 14 lugares
   Madeira: Angelim pedra
   Valor à vista: R$ 5.350,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=16
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/16-1-bvwp0v.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=16
+  Foto: https://cmr-marcenaria.github.io/fotos/16-1-bvwp0v.jpg
 
 [62] Mesa cascata pequiá tingido
   Medidas: 420 x 120 cm (altura 80 cm) · Categoria 5 · 14 lugares
   Madeira: Pequiá
   Valor à vista: R$ 8.000,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=62
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/62-1-wktujs.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=62
+  Foto: https://cmr-marcenaria.github.io/fotos/62-1-wktujs.jpg
 
 [105] Mesa cascata garapeira
   Medidas: 480 x 100 cm (altura 80 cm) · Categoria 6 · 17 lugares
   Madeira: Garapeira
   Valor à vista: R$ 11.500,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=105
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/105-1-5zvuoz.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=105
+  Foto: https://cmr-marcenaria.github.io/fotos/105-1-5zvuoz.jpg
 
 [30] Mesa cascata pequiá ct cascata
   Medidas: 500 x 100 cm (altura 80 cm) · Categoria 6 · 18 lugares
   Madeira: Pequiá
   Valor à vista: R$ 9.200,00
-  Link: https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=30
-  Foto: https://guilhermegestorspec.github.io/catalogo-cmr/fotos/30-1-2g7pit.jpg
+  Link: https://cmr-marcenaria.github.io/mesa.html?c=30
+  Foto: https://cmr-marcenaria.github.io/fotos/30-1-2g7pit.jpg
 

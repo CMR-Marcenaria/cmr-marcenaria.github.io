@@ -1,6 +1,7 @@
 # Catálogo CMR Marcenaria
 
-Catálogo público de mesas rústicas, hospedado de graça no **GitHub Pages**.
+Catálogo público de mesas rústicas, hospedado de graça no **GitHub Pages**:
+**https://cmr-marcenaria.github.io** (painel: **https://cmr-marcenaria.github.io/painel.html**).
 Não tem servidor nem banco de dados: as mesas ficam em `dados/mesas.json` e as fotos em `fotos/`.
 
 ## Endereços
@@ -23,7 +24,7 @@ Cada alteração aparece no site em 1 a 2 minutos.
 
 1. GitHub > foto do perfil > **Settings** > **Developer settings** > **Personal access tokens** > **Fine-grained tokens** > **Generate new token**.
 2. Nome: `painel catalogo`. Validade: até 1 ano.
-3. **Repository access**: *Only select repositories* > `catalogo-cmr`.
+3. **Resource owner**: `CMR-Marcenaria`. **Repository access**: *Only select repositories* > `cmr-marcenaria.github.io`.
 4. **Permissions** > *Repository permissions* > **Contents: Read and write**.
 5. **Generate token**, copie e cole no painel (marque "Lembrar neste aparelho").
 

@@ -499,7 +499,7 @@ $("caixa-config").addEventListener("submit", async (e) => {
   const salvo = lembrado();
   if (salvo) {
     $("login-dono").value = salvo.dono || "";
-    $("login-repo").value = salvo.nome || "catalogo-cmr";
+    $("login-repo").value = salvo.nome || "cmr-marcenaria.github.io";
     $("login-chave").value = salvo.chave || "";
   }
   $("tela-login").hidden = false;
