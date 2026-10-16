@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Painel do catálogo — CMR Marcenaria</title>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+  <header class="topo"><div class="topo-dentro">
+    <a href="./" class="marca"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Painel do catálogo</span></a>
+  </div></header>
+
+  <main class="conteudo">
+    <!-- Entrada: só quem tem a chave do GitHub consegue alterar o catálogo -->
+    <form class="caixa login" id="tela-login" hidden>
+      <h2>Entrar no painel</h2>
+      <div class="campos" style="grid-template-columns: 1fr">
+        <div id="campos-repo" class="campos" style="grid-template-columns: 1fr 1fr" hidden>
+          <label class="campo">Usuário do GitHub<input id="login-dono" autocomplete="off"></label>
+          <label class="campo">Repositório<input id="login-repo" autocomplete="off" value="catalogo-cmr"></label>
+        </div>
+        <label class="campo">Chave de acesso<input id="login-chave" type="password" autocomplete="current-password" required placeholder="github_pat_…"></label>
+        <label class="campo" style="flex-direction:row; align-items:center; gap:8px"><input id="login-lembrar" type="checkbox" checked> Lembrar neste aparelho</label>
+      </div>
+      <div class="linha-botoes"><button class="botao" id="btn-entrar">Entrar</button></div>
+      <div class="msg-erro" id="login-erro"></div>
+    </form>
+
+    <section id="tela-gestao" hidden>
+      <div class="painel-topo">
+        <div>
+          <h1>Painel do catálogo</h1>
+          <span class="dica"><a href="./" target="_blank">ver catálogo público</a> · <a href="#" id="btn-config">configurações</a> · <a href="#" id="btn-sair">sair</a></span>
+        </div>
+        <button class="botao" id="btn-nova">+ Nova mesa</button>
+      </div>
+      <div class="msg-ok" id="aviso" hidden></div>
+      <div class="msg-erro" id="erro-geral" style="margin-bottom:14px"></div>
+
+      <form class="caixa" id="caixa-config" hidden>
+        <h2>Configurações</h2>
+        <div class="campos">
+          <label class="campo">WhatsApp da loja (com DDD)<input id="cfg-whats" inputmode="tel" placeholder="Ex.: 11 99999-9999"></label>
+        </div>
+        <p class="dica">Aparece no botão “Quero esta mesa” da página de cada mesa.</p>
+        <div class="linha-botoes"><button class="botao">Salvar</button><button type="button" class="botao secundario" id="cfg-cancelar">Cancelar</button></div>
+      </form>
+
+      <form class="caixa" id="form-mesa" hidden>
+        <h2 id="form-titulo">Nova mesa</h2>
+        <div class="campos">
+          <label class="campo largo">Nome da mesa *<input name="nome" required placeholder="Ex.: Mesa rústica de peroba"></label>
+          <label class="campo">Comprimento (cm) *<input name="comprimento_cm" inputmode="decimal" required></label>
+          <label class="campo">Largura (cm) *<input name="largura_cm" inputmode="decimal" required></label>
+          <label class="campo">Altura (cm)<input name="altura_cm" inputmode="decimal"></label>
+          <label class="campo">Lugares<input name="lugares" inputmode="numeric"></label>
+          <label class="campo">Valor à vista (R$)<input name="preco_a_vista" inputmode="decimal" placeholder="vazio = sob consulta"></label>
+          <label class="campo">Situação
+            <select name="status"><option value="disponivel">Disponível</option><option value="reservado">Reservada</option><option value="vendido">Vendida</option></select>
+          </label>
+          <label class="campo">Madeira<input name="madeira" placeholder="Ex.: Peroba, demolição"></label>
+          <label class="campo">Código<input name="codigo" placeholder="automático"></label>
+          <label class="campo largo">Descrição<textarea name="descricao" placeholder="Acabamento, pés, tipo de tampo…"></textarea></label>
+        </div>
+        <p class="dica" id="form-categoria"></p>
+        <h2 style="margin-top:18px">Fotos</h2>
+        <div class="fotos-edicao" id="form-fotos"></div>
+        <div style="margin-top:10px"><input type="file" id="form-arquivos" accept="image/*" multiple></div>
+        <p class="dica">A primeira foto é a capa. As fotos são reduzidas automaticamente antes de enviar.</p>
+        <div class="linha-botoes">
+          <button class="botao" id="btn-salvar">Salvar</button>
+          <button type="button" class="botao secundario" id="btn-cancelar">Cancelar</button>
+          <span class="dica" id="form-progresso"></span>
+        </div>
+        <div class="msg-erro" id="form-erro"></div>
+      </form>
+
+      <div id="area-lista">
+        <nav class="filtros" id="filtros-status"></nav>
+        <div id="lista-admin"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/comum.js"></script>
+  <script src="assets/painel.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMR Marcenaria — Catálogo de Mesas Rústicas</title>
+  <meta name="description" content="Mesas rústicas de madeira maciça da CMR Marcenaria: medidas, fotos e valores das peças disponíveis.">
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+  <header class="topo"><div class="topo-dentro">
+    <a href="./" class="marca"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Mesas rústicas em madeira maciça</span></a>
+  </div></header>
+
+  <main class="conteudo">
+    <h1>Catálogo de mesas</h1>
+    <p class="subtitulo">Peças prontas para entrega. Toque numa mesa para ver fotos e detalhes.</p>
+    <nav class="filtros" id="filtros" aria-label="Filtrar por tamanho"></nav>
+    <div id="lista"><p class="dica">Carregando…</p></div>
+  </main>
+
+  <footer class="rodape">CMR Marcenaria · Peças únicas, feitas à mão</footer>
+
+  <script src="assets/comum.js"></script>
+  <script>
+    let dados = null;
+    let categoria = Number(new URLSearchParams(location.search).get("categoria")) || null;
+
+    function desenhar() {
+      const filtros = document.getElementById("filtros");
+      filtros.innerHTML = [`<button class="chip ${!categoria ? "ativo" : ""}" data-cat="">Todas</button>`]
+        .concat(FAIXAS.map((f) => `<button class="chip ${categoria === f.categoria ? "ativo" : ""}" data-cat="${f.categoria}">${faixaTexto(f.categoria)}</button>`))
+        .join("");
+
+      const mesas = dados.mesas
+        .filter((m) => m.status !== "vendido")
+        .filter((m) => !categoria || categoriaDe(m.comprimento_cm) === categoria)
+        .sort((a, b) => a.comprimento_cm - b.comprimento_cm);
+
+      const lista = document.getElementById("lista");
+      if (mesas.length === 0) {
+        lista.innerHTML = `<div class="vazio">Nenhuma mesa disponível ${categoria ? "nesse tamanho " : ""}no momento. Fale com a gente: fazemos sob medida.</div>`;
+        return;
+      }
+      lista.innerHTML = `<div class="grade">${mesas.map((m) => {
+        const cat = categoriaDe(m.comprimento_cm);
+        return `<a class="cartao" href="mesa.html?c=${encodeURIComponent(m.codigo)}">
+          <div class="foto">${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}" loading="lazy">` : "<span>Foto em breve</span>"}</div>
+          <div class="cartao-corpo">
+            <span class="codigo">${esc(m.codigo)}${cat ? ` · Categoria ${cat}` : ""}</span>
+            <span class="nome">${esc(m.nome)}</span>
+            <span class="medidas">${esc(medidasTexto(m))}${m.lugares ? ` · ${m.lugares} lugares` : ""}</span>
+            <span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>
+            <span class="preco">${precoTexto(m.preco_a_vista)} ${m.preco_a_vista != null ? "<small>à vista</small>" : ""}</span>
+          </div></a>`;
+      }).join("")}</div>`;
+    }
+
+    document.getElementById("filtros").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-cat]");
+      if (!b) return;
+      categoria = Number(b.dataset.cat) || null;
+      history.replaceState(null, "", categoria ? `?categoria=${categoria}` : "./");
+      desenhar();
+    });
+
+    carregarCatalogo()
+      .then((d) => { dados = d; desenhar(); })
+      .catch((e) => { document.getElementById("lista").innerHTML = `<div class="vazio">${esc(e.message)}</div>`; });
+  </script>
+</body>
+</html>

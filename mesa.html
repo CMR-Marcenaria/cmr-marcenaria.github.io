@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mesa — CMR Marcenaria</title>
+  <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+  <header class="topo"><div class="topo-dentro">
+    <a href="./" class="marca"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Mesas rústicas em madeira maciça</span></a>
+  </div></header>
+
+  <main class="conteudo">
+    <a href="./" class="voltar">← Voltar ao catálogo</a>
+    <div id="mesa"><p class="dica">Carregando…</p></div>
+  </main>
+
+  <footer class="rodape">CMR Marcenaria · Peças únicas, feitas à mão</footer>
+
+  <script src="assets/comum.js"></script>
+  <script>
+    const codigo = (new URLSearchParams(location.search).get("c") || "").trim().toUpperCase();
+    const alvo = document.getElementById("mesa");
+
+    carregarCatalogo().then((dados) => {
+      const m = dados.mesas.find((x) => x.codigo.toUpperCase() === codigo);
+      if (!m || m.status === "vendido") {
+        alvo.innerHTML = `<div class="vazio">Essa mesa não está mais disponível. <a href="./">Veja as outras mesas do catálogo</a>.</div>`;
+        return;
+      }
+      document.title = `${m.nome} (${m.codigo}) — CMR Marcenaria`;
+      const cat = categoriaDe(m.comprimento_cm);
+      const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, `Olá! Tenho interesse na mesa ${m.codigo} (${m.nome}, ${medidasTexto(m)}).`);
+      const linha = (rotulo, valor) => (valor ? `<dt>${rotulo}</dt><dd>${esc(valor)}</dd>` : "");
+
+      alvo.innerHTML = `<div class="detalhe">
+        <div class="galeria">
+          <div class="foto principal" id="principal">${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}">` : "<span>Foto em breve</span>"}</div>
+          ${m.fotos.length > 1 ? `<div class="miniaturas">${m.fotos.map((f, i) => `<button class="${i === 0 ? "ativa" : ""}" data-i="${i}" aria-label="Foto ${i + 1}"><img src="${esc(f)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+        </div>
+        <div class="ficha">
+          <span class="codigo">${esc(m.codigo)}</span>
+          <h1>${esc(m.nome)}</h1>
+          <span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>
+          ${m.descricao ? `<p style="margin:0">${esc(m.descricao)}</p>` : ""}
+          <dl>
+            ${linha("Medidas", medidasTexto(m))}
+            ${linha("Categoria", cat ? `${cat} (${faixaTexto(cat)})` : "")}
+            ${linha("Lugares", m.lugares)}
+            ${linha("Madeira", m.madeira)}
+          </dl>
+          <div class="preco">${precoTexto(m.preco_a_vista)} ${m.preco_a_vista != null ? "<small>à vista</small>" : ""}</div>
+          ${whats ? `<a class="botao whats" href="${esc(whats)}" target="_blank" rel="noopener noreferrer">Quero esta mesa (WhatsApp)</a>` : ""}
+        </div>
+      </div>`;
+
+      alvo.querySelectorAll(".miniaturas button").forEach((b) => b.addEventListener("click", () => {
+        document.getElementById("principal").innerHTML = `<img src="${esc(m.fotos[b.dataset.i])}" alt="${esc(m.nome)}">`;
+        alvo.querySelectorAll(".miniaturas button").forEach((x) => x.classList.toggle("ativa", x === b));
+      }));
+    }).catch((e) => { alvo.innerHTML = `<div class="vazio">${esc(e.message)}</div>`; });
+  </script>
+</body>
+</html>

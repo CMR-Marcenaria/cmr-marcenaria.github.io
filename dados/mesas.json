@@ -1,0 +1,11 @@
+{
+  "loja": {
+    "nome": "CMR Marcenaria",
+    "whatsapp": ""
+  },
+  "site": "https://guilhermegestorspec.github.io/catalogo-cmr",
+  "atualizado_em": "2026-10-16T00:00:00.000Z",
+  "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
+  "total_disponiveis": 0,
+  "mesas": []
+}

@@ -1,44 +1,30 @@
 # Catálogo CMR Marcenaria
 
-Catálogo público de mesas rústicas, com painel protegido para o cliente atualizar
-pelo celular e uma API para a IA do atendimento (Criativivo / OpenAI) consultar
-disponibilidade, medidas, fotos e valor à vista.
-
-Roda 100% na nuvem: **Vercel** (site) + **Supabase** (banco de dados, fotos e login).
+Catálogo público de mesas rústicas, hospedado de graça no **GitHub Pages**.
+Não tem servidor nem banco de dados: as mesas ficam em `dados/mesas.json` e as fotos em `fotos/`.
 
 ## Endereços
 
 | Endereço | Quem usa | Para quê |
 |---|---|---|
 | `/` | Público | Catálogo com fotos, filtrado por tamanho |
-| `/mesa/CMR-001` | Público | Página da mesa (link que a IA manda ao cliente) |
-| `/painel` | Só o cliente (login) | Cadastrar, editar, subir fotos, marcar como vendida |
-| `/api/mesas` | IA | Lista em JSON (padrão: só disponíveis). Filtros: `categoria`, `comprimento_min`, `comprimento_max`, `largura_min`, `largura_max`, `preco_max`, `lugares_min`, `busca`, `status` |
-| `/api/mesas/CMR-001` | IA | Confere uma mesa específica |
-| `/openapi.json` | IA | Descrição da API para cadastrar como ferramenta/função |
-| `/catalogo.txt` | IA | Catálogo em texto simples, para IAs que só leem páginas |
+| `/mesa.html?c=CMR-001` | Público | Página da mesa (link que a IA manda ao cliente) |
+| `/painel.html` | Só quem tem a chave | Cadastrar, editar, subir fotos, marcar como vendida |
+| `/dados/mesas.json` | IA | Todas as mesas em JSON, com `disponivel`, `preco_texto`, `link` e `fotos_url` |
+| `/catalogo.txt` | IA | Só as mesas disponíveis, em texto simples |
 
-## Como colocar no ar
+## Como o painel funciona
 
-1. **Supabase** (supabase.com): crie um projeto. Em *SQL Editor*, cole e rode `supabase/schema.sql`.
-2. Em *Authentication > Sign In / Providers*, desative **Allow new users to sign up**.
-3. Em *Authentication > Users > Add user*, crie o login do cliente (e-mail + senha, marque *Auto Confirm*).
-4. No *SQL Editor*, libere esse usuário no painel (troque o e-mail):
-   ```sql
-   insert into public.admins (user_id, email)
-   select id, email from auth.users where email = 'email-do-cliente@exemplo.com'
-   on conflict (user_id) do nothing;
-   ```
-5. **Vercel** (vercel.com): entre com o GitHub, importe este repositório e cadastre as variáveis
-   de `.env.example` (URL e chave *anon/publishable* ficam em *Supabase > Project Settings > API*).
-6. Pronto: cada `git push` atualiza o site sozinho.
+O painel salva direto neste repositório usando uma **chave de acesso do GitHub**
+(fine-grained token) com permissão apenas neste repositório. Sem a chave, ninguém altera nada.
+Cada alteração aparece no site em 1 a 2 minutos.
 
-## Rodar no PC
+### Criar a chave de acesso
 
-```bash
-npm install
-copy .env.example .env.local   # preencha as chaves
-npm run dev
-```
+1. GitHub > foto do perfil > **Settings** > **Developer settings** > **Personal access tokens** > **Fine-grained tokens** > **Generate new token**.
+2. Nome: `painel catalogo`. Validade: até 1 ano.
+3. **Repository access**: *Only select repositories* > `catalogo-cmr`.
+4. **Permissions** > *Repository permissions* > **Contents: Read and write**.
+5. **Generate token**, copie e cole no painel (marque "Lembrar neste aparelho").
 
-Sem as chaves do Supabase o site abre em **modo demonstração**, com mesas de exemplo.
+Se a chave vazar, apague-a nessa mesma tela e gere outra.
