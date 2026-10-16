@@ -1,0 +1,13 @@
+{
+  "versao": 2,
+  "dono": "cmr-marcenaria",
+  "nome": "cmr-marcenaria.github.io",
+  "usuarios": {
+    "otavio": {
+      "iteracoes": 600000,
+      "sal": "FlMWEPCgUhLVU65cMzznwg==",
+      "iv": "ullvnivwdqTfQEvh",
+      "dados": "rWh/2DohklXeTAVLgXGTmQRGRbx2NYIQ6vT14/MJT7h0h/O3OitfNwxVlNLiDb/KRjlLVqn/5r3iCeaX6uhrHoOOI4TaVHEkm5dtH0ywJUWa2oa1hrVz9SAGVTguU4xledDv5VNHWN7omyoMDA=="
+    }
+  }
+}
