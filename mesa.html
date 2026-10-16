@@ -43,7 +43,8 @@
       }
       document.title = `${m.nome} (${m.codigo}) — CMR Marcenaria`;
       const cat = categoriaDe(m.comprimento_cm);
-      const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, `Olá! Tenho interesse na mesa ${m.codigo} (${m.nome}, ${medidasTexto(m)}).`);
+      const site = siteAtual();
+      const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, mensagemInteresse(m, site));
       const linha = (rotulo, valor) => (valor ? `<dt>${rotulo}</dt><dd>${esc(valor)}</dd>` : "");
 
       alvo.innerHTML = `<div class="detalhe">
@@ -63,9 +64,15 @@
             ${linha("Madeira", m.madeira)}
           </dl>
           <div class="preco">${precoTexto(m.preco_a_vista)} ${m.preco_a_vista != null ? "<small>à vista</small>" : ""}</div>
-          ${whats ? `<a class="botao whats" href="${esc(whats)}" target="_blank" rel="noopener noreferrer">Quero esta mesa (WhatsApp)</a>` : ""}
+          <div class="acoes-mesa">
+            ${whats ? `<a class="botao whats" href="${esc(whats)}" target="_blank" rel="noopener noreferrer">Quero comprar esta mesa (WhatsApp)</a>` : ""}
+            <button type="button" class="botao secundario" id="btn-compartilhar">Compartilhar link desta mesa</button>
+          </div>
         </div>
       </div>`;
+
+      const btnCompartilhar = document.getElementById("btn-compartilhar");
+      btnCompartilhar.addEventListener("click", () => compartilharMesa(m, site, btnCompartilhar));
 
       alvo.querySelectorAll(".miniaturas button").forEach((b) => b.addEventListener("click", () => {
         document.getElementById("principal").innerHTML = `<img src="${esc(m.fotos[b.dataset.i])}" alt="${esc(m.nome)}">`;

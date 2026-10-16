@@ -82,9 +82,11 @@
         lista.innerHTML = `<div class="vazio">Nenhuma peça disponível nesse tamanho no momento. Fale com a gente: fazemos sob medida.</div>`;
         return;
       }
+      const site = siteAtual();
       lista.innerHTML = `<div class="grade">${mesas.map((m) => {
         const cat = categoriaDe(m.comprimento_cm);
-        return `<a class="cartao" href="mesa.html?c=${encodeURIComponent(m.codigo)}">
+        const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, mensagemInteresse(m, site));
+        return `<div class="cartao"><a class="cartao-link" href="mesa.html?c=${encodeURIComponent(m.codigo)}">
           <div class="foto">
             ${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}" loading="lazy">` : "<span>Foto em breve</span>"}
             <span class="etiqueta">Nº ${esc(m.codigo)}</span>
@@ -95,9 +97,20 @@
             <span class="nome">${esc(m.nome)}</span>
             <span class="medidas">${esc(medidasTexto(m))}${m.lugares ? ` · ${m.lugares} lugares` : ""}</span>
             <span class="preco">${precoTexto(m.preco_a_vista)} ${m.preco_a_vista != null ? "<small>à vista</small>" : ""}</span>
-          </div></a>`;
+          </div></a>
+          <div class="cartao-acoes">
+            ${whats ? `<a class="botao whats" href="${esc(whats)}" target="_blank" rel="noopener noreferrer">Quero esta mesa</a>` : ""}
+            <button type="button" class="botao secundario" data-compartilhar="${esc(m.codigo)}" aria-label="Compartilhar o link desta mesa">Compartilhar</button>
+          </div></div>`;
       }).join("")}</div>`;
     }
+
+    document.getElementById("lista").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-compartilhar]");
+      if (!b) return;
+      const m = dados.mesas.find((x) => x.codigo === b.dataset.compartilhar);
+      if (m) compartilharMesa(m, siteAtual(), b);
+    });
 
     function desenharTopo() {
       const disponiveis = dados.mesas.filter((m) => m.status === "disponivel");

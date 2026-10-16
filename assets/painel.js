@@ -171,61 +171,25 @@ async function lerDados() {
 
 // ── Arquivos publicados (site + IA) ────────────────────────────────────────
 
-/** Gera o JSON lido pelo site e pela IA, e o catálogo em texto simples. */
-function gerarPublicacao(estado) {
-  const site = enderecoPublico();
-  const mesas = estado.mesas.map((m) => {
-    const categoria = categoriaDe(m.comprimento_cm);
-    return {
-      ...m,
-      disponivel: m.status === "disponivel",
-      categoria,
-      faixa_comprimento: categoria ? faixaTexto(categoria) : null,
-      medidas: medidasTexto(m),
-      preco_texto: precoTexto(m.preco_a_vista),
-      link: `${site}/mesa.html?c=${encodeURIComponent(m.codigo)}`,
-      fotos_url: m.fotos.map((f) => `${site}/${f}`),
-    };
-  }).sort((a, b) => a.comprimento_cm - b.comprimento_cm);
-
-  const agora = new Date();
-  const json = {
-    loja: estado.loja,
-    site,
-    atualizado_em: agora.toISOString(),
-    observacao: "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-    total_disponiveis: mesas.filter((m) => m.disponivel).length,
-    mesas,
-  };
-
-  const quando = new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short", timeZone: "America/Sao_Paulo" }).format(agora);
-  const disponiveis = mesas.filter((m) => m.disponivel);
-  const linhas = [
-    "CATÁLOGO CMR MARCENARIA — MESAS RÚSTICAS DISPONÍVEIS",
-    `Atualizado em ${quando}. Total disponível: ${disponiveis.length}.`,
-    "Valores à vista. Só estão listadas mesas prontas e disponíveis para venda.",
-    "Ao responder o cliente, envie o nome, as medidas, o valor e o link da mesa.",
-    "",
-  ];
-  for (const m of disponiveis) {
-    linhas.push(
-      `[${m.codigo}] ${m.nome}`,
-      `  Medidas: ${m.medidas}${m.categoria ? ` · Categoria ${m.categoria}` : ""}${m.lugares ? ` · ${m.lugares} lugares` : ""}`,
-      ...(m.madeira ? [`  Madeira: ${m.madeira}`] : []),
-      ...(m.descricao ? [`  Descrição: ${m.descricao.replace(/\s+/g, " ")}`] : []),
-      `  Valor à vista: ${m.preco_texto}`,
-      `  Link: ${m.link}`,
-      ...(m.fotos_url[0] ? [`  Foto: ${m.fotos_url[0]}`] : []),
-      "",
-    );
+/**
+ * Arquivos a gravar no commit: JSON e texto para a IA sempre, e só as páginas
+ * curtas (m/*.html) das mesas que mudaram ou foram apagadas.
+ */
+function arquivosDaPublicacao(anterior, novo) {
+  const arquivos = gerarArquivosPublicos(novo, enderecoPublico());
+  const antes = new Map(anterior.mesas.map((m) => [slugCodigo(m.codigo), JSON.stringify(m)]));
+  const depois = new Set();
+  for (const m of novo.mesas) {
+    const slug = slugCodigo(m.codigo);
+    depois.add(slug);
+    if (antes.get(slug) === JSON.stringify(m)) delete arquivos[`m/${slug}.html`];
   }
-  if (disponiveis.length === 0) linhas.push("Nenhuma mesa pronta no momento. A CMR faz mesas sob medida.");
-
-  return { "dados/mesas.json": JSON.stringify(json, null, 2) + "\n", "catalogo.txt": linhas.join("\n") + "\n" };
+  for (const slug of antes.keys()) if (!depois.has(slug)) arquivos[`m/${slug}.html`] = null;
+  return arquivos;
 }
 
 async function publicar(novoEstado, mensagem, extras = {}) {
-  await commitar(mensagem, { ...extras, ...gerarPublicacao(novoEstado) });
+  await commitar(mensagem, { ...extras, ...arquivosDaPublicacao(dados, novoEstado) });
   dados = novoEstado;
   avisar("Salvo! O catálogo público atualiza em 1 a 2 minutos.");
 }
