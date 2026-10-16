@@ -126,7 +126,7 @@ async function gh(caminho, opcoes = {}) {
     const corpo = await r.json().catch(() => ({}));
     const erro = new Error(
       r.status === 401 ? "Chave de acesso inválida ou vencida." :
-      r.status === 403 || r.status === 404 ? "Essa chave não tem acesso ao repositório do catálogo." :
+      r.status === 403 || r.status === 404 ? `Essa chave não tem acesso ao repositório ${acesso.dono}/${acesso.nome}. Confira se a chave foi aprovada na organização, se o "Resource owner" é a organização e se o repositório e a permissão Contents (Read and write) foram marcados.` :
       corpo.message || `Erro ${r.status} no GitHub.`,
     );
     erro.status = r.status;
@@ -467,7 +467,7 @@ async function entrar(e) {
   $("btn-entrar").disabled = true;
   try {
     const r = await fetch(`dados/acesso.json?t=${Date.now()}`, { cache: "no-store" });
-    if (r.status === 404) { abrirConfiguracao("O acesso ainda não foi configurado. Peça para a agência configurar."); return; }
+    if (r.status === 404) { abrirConfiguracao("Nenhum usuário foi cadastrado ainda. A agência precisa concluir esta configuração (clicar em Salvar acesso sem erro)."); return; }
     if (!r.ok) throw new Error("Não foi possível verificar o acesso. Tente de novo.");
     const pacote = await r.json();
     const usuario = $("login-usuario").value.trim().toLowerCase();
