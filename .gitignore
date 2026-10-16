@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Chaves e configurações locais: nunca vão para o GitHub
+.env
+.env.local
+.env.*.local
+
+npm-debug.log*
+.DS_Store
+Thumbs.db
