@@ -416,35 +416,133 @@ async function mudarStatus(e) {
   } finally { sel.disabled = false; }
 }
 
-async function entrar(e) {
-  if (e) e.preventDefault();
-  $("login-erro").textContent = "";
-  const doEndereco = repoPeloEndereco();
-  acesso.dono = doEndereco ? doEndereco.dono : $("login-dono").value.trim();
-  acesso.nome = doEndereco ? doEndereco.nome : $("login-repo").value.trim();
-  acesso.chave = $("login-chave").value.trim();
-  if (!acesso.dono || !acesso.nome || !acesso.chave) { $("login-erro").textContent = "Preencha todos os campos."; return; }
+// ── Acesso por senha ────────────────────────────────────────────────────────
+// A chave do GitHub fica em dados/acesso.json, criptografada (AES-GCM) com uma
+// chave derivada da senha do lojista (PBKDF2). Sem a senha, o arquivo não serve para nada.
 
+const ITERACOES = 600000;
+const paraB64 = (bytes) => btoa(String.fromCharCode(...new Uint8Array(bytes)));
+const deB64 = (b64) => Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
+
+async function chaveDaSenha(senha, sal, iteracoes) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(senha), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name: "PBKDF2", salt: sal, iterations: iteracoes, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]);
+}
+
+async function cifrar(texto, senha) {
+  const sal = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const chave = await chaveDaSenha(senha, sal, ITERACOES);
+  const dados = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, chave, new TextEncoder().encode(texto));
+  return { iteracoes: ITERACOES, sal: paraB64(sal), iv: paraB64(iv), dados: paraB64(dados) };
+}
+
+async function decifrar(pacote, senha) {
+  try {
+    const chave = await chaveDaSenha(senha, deB64(pacote.sal), pacote.iteracoes);
+    const texto = await crypto.subtle.decrypt({ name: "AES-GCM", iv: deB64(pacote.iv) }, chave, deB64(pacote.dados));
+    return new TextDecoder().decode(texto);
+  } catch {
+    throw new Error("Usuário ou senha incorretos.");
+  }
+}
+
+/** Valida a chave no GitHub, carrega o catálogo e abre a gestão. */
+async function conectar(dono, nome, chave, lembrar) {
+  acesso = { dono, nome, chave, branch: "main" };
+  const repo = await gh(repoUrl());
+  if (!repo.permissions || !repo.permissions.push) throw new Error("Essa chave só pode ler. Crie a chave com permissão de escrita (Contents: Read and write).");
+  acesso.branch = repo.default_branch || "main";
+  await lerDados();
+  guardar({ dono, nome, chave }, lembrar);
+  $("tela-login").hidden = true;
+  $("tela-configurar").hidden = true;
+  $("tela-gestao").hidden = false;
+  mostrarLista();
+}
+
+async function entrar(e) {
+  e.preventDefault();
+  $("login-erro").textContent = "";
   $("btn-entrar").disabled = true;
   try {
-    const repo = await gh(repoUrl());
-    if (!repo.permissions || !repo.permissions.push) throw new Error("Essa chave só pode ler. Crie a chave com permissão de escrita (Contents: Read and write).");
-    acesso.branch = repo.default_branch || "main";
-    await lerDados();
-    guardar({ dono: acesso.dono, nome: acesso.nome, chave: acesso.chave }, $("login-lembrar").checked);
-    $("tela-login").hidden = true;
-    $("tela-gestao").hidden = false;
-    mostrarLista();
+    const r = await fetch(`dados/acesso.json?t=${Date.now()}`, { cache: "no-store" });
+    if (r.status === 404) { abrirConfiguracao("O acesso ainda não foi configurado. Peça para a agência configurar."); return; }
+    if (!r.ok) throw new Error("Não foi possível verificar o acesso. Tente de novo.");
+    const pacote = await r.json();
+    const usuario = $("login-usuario").value.trim().toLowerCase();
+    const cofre = (pacote.usuarios || {})[usuario];
+    if (!cofre) throw new Error("Usuário ou senha incorretos.");
+    const chave = await decifrar(cofre, $("login-senha").value);
+    await conectar(pacote.dono, pacote.nome, chave, $("login-lembrar").checked);
+    $("login-senha").value = "";
   } catch (err) {
-    $("login-erro").textContent = err.message;
+    $("login-erro").textContent = err.status === 401 ? "A chave de acesso venceu ou foi apagada. Peça para a agência configurar de novo." : err.message;
   } finally {
     $("btn-entrar").disabled = false;
+  }
+}
+
+function abrirConfiguracao(mensagem) {
+  const doEndereco = repoPeloEndereco();
+  $("campos-repo").hidden = Boolean(doEndereco);
+  if (acesso.chave) {
+    $("cfg-chave").value = acesso.chave;
+    $("login-dono").value = acesso.dono;
+    $("login-repo").value = acesso.nome;
+  }
+  $("cfg-erro").textContent = mensagem || "";
+  $("tela-login").hidden = true;
+  $("tela-gestao").hidden = true;
+  $("tela-configurar").hidden = false;
+}
+
+async function configurarAcesso(e) {
+  e.preventDefault();
+  const erro = (t) => { $("cfg-erro").textContent = t; };
+  erro("");
+  const usuario = $("cfg-usuario").value.trim().toLowerCase();
+  if (!/^[a-z0-9._-]{3,30}$/.test(usuario)) return erro("Usuário: de 3 a 30 letras minúsculas, números, ponto, hífen ou sublinhado.");
+  const senha = $("cfg-senha").value;
+  if (senha.length < 8) return erro("A senha precisa ter pelo menos 8 caracteres.");
+  if (senha !== $("cfg-senha2").value) return erro("As senhas não são iguais.");
+  const doEndereco = repoPeloEndereco();
+  const dono = doEndereco ? doEndereco.dono : $("login-dono").value.trim();
+  const nome = doEndereco ? doEndereco.nome : $("login-repo").value.trim();
+  const chave = $("cfg-chave").value.trim();
+  if (!dono || !nome || !chave) return erro("Preencha todos os campos.");
+
+  $("btn-configurar").disabled = true;
+  try {
+    await conectar(dono, nome, chave, true);
+    // Mantém os outros usuários; cada um tem a chave cifrada com a própria senha
+    let usuarios = {};
+    try {
+      const atual = await gh(`${repoUrl()}/contents/dados/acesso.json?ref=${acesso.branch}`);
+      usuarios = JSON.parse(base64ParaTexto(atual.content)).usuarios || {};
+    } catch (err) { if (err.status !== 404) throw err; }
+    usuarios[usuario] = await cifrar(chave, senha);
+    const pacote = { versao: 2, dono, nome, usuarios };
+    await commitar(`Atualiza acesso ao painel (usuário ${usuario})`, { "dados/acesso.json": JSON.stringify(pacote, null, 2) + "\n" });
+    $("cfg-senha").value = $("cfg-senha2").value = $("cfg-chave").value = $("cfg-usuario").value = "";
+    avisar(`Acesso salvo! O usuário ${usuario} já pode entrar com a senha (em 1 a 2 minutos).`);
+  } catch (err) {
+    abrirConfiguracao(err.message);
+  } finally {
+    $("btn-configurar").disabled = false;
   }
 }
 
 // ── Início ──────────────────────────────────────────────────────────────────
 
 $("tela-login").addEventListener("submit", entrar);
+$("tela-configurar").addEventListener("submit", configurarAcesso);
+$("link-configurar").addEventListener("click", (e) => { e.preventDefault(); abrirConfiguracao(); });
+$("btn-trocar-senha").addEventListener("click", (e) => { e.preventDefault(); abrirConfiguracao(); });
+$("btn-voltar-login").addEventListener("click", () => {
+  $("tela-configurar").hidden = true;
+  if (acesso.chave) { $("tela-gestao").hidden = false; mostrarLista(); } else $("tela-login").hidden = false;
+});
 $("btn-sair").addEventListener("click", (e) => { e.preventDefault(); guardar(null); location.reload(); });
 $("btn-nova").addEventListener("click", () => abrirFormulario(null));
 $("btn-cancelar").addEventListener("click", mostrarLista);
@@ -493,15 +591,11 @@ $("caixa-config").addEventListener("submit", async (e) => {
   } catch (err) { erroGeral(err.message); }
 });
 
-(function iniciar() {
-  const doEndereco = repoPeloEndereco();
-  $("campos-repo").hidden = Boolean(doEndereco);
+(async function iniciar() {
   const salvo = lembrado();
-  if (salvo) {
-    $("login-dono").value = salvo.dono || "";
-    $("login-repo").value = salvo.nome || "cmr-marcenaria.github.io";
-    $("login-chave").value = salvo.chave || "";
+  if (salvo && salvo.chave) {
+    try { await conectar(salvo.dono, salvo.nome, salvo.chave, Boolean(localStorage.getItem(CHAVE_LOCAL))); return; }
+    catch { guardar(null); acesso = { dono: "", nome: "", chave: "", branch: "main" }; }
   }
   $("tela-login").hidden = false;
-  if (salvo && salvo.chave) entrar();
 })();

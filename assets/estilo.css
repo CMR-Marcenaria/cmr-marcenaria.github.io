@@ -141,6 +141,8 @@ body:not(.publico) .botao.secundario:hover { background: #f1e8dc; }
 .rodape { border-top: 1px solid var(--borda); color: var(--suave); font-size: .85rem; }
 .rodape-dentro { max-width: 1240px; margin: 0 auto; padding: 28px 16px; display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; text-align: center; }
 .rodape img { width: 38px; height: 38px; border-radius: 8px; object-fit: cover; }
+.link-lojista { color: var(--suave); font-size: .8rem; text-decoration: none; border: 1px solid var(--borda); padding: 4px 10px; border-radius: 999px; }
+.link-lojista:hover { color: var(--destaque); border-color: var(--destaque); }
 
 /* ── Painel ───────────────────────────────────────────────────────────── */
 .painel-topo { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
