@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-16T04:29:20.905Z",
+  "atualizado_em": "2026-10-16T10:38:15.203Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 57,
+  "total_disponiveis": 56,
   "mesas": [
     {
       "codigo": "98",
@@ -966,30 +966,6 @@
       "link": "https://cmr-marcenaria.github.io/m/107",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/107-1-hq8f1g.jpg"
-      ]
-    },
-    {
-      "codigo": "106",
-      "nome": "Mesa cascata",
-      "descricao": null,
-      "madeira": null,
-      "comprimento_cm": 300,
-      "largura_cm": 100,
-      "altura_cm": 80,
-      "lugares": 10,
-      "preco_a_vista": 105000,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/106-1-mzq9c4.jpg"
-      ],
-      "disponivel": true,
-      "categoria": 3,
-      "faixa_comprimento": "270–325 cm",
-      "medidas": "300 x 100 cm (altura 80 cm)",
-      "preco_texto": "R$ 105.000,00",
-      "link": "https://cmr-marcenaria.github.io/m/106",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/106-1-mzq9c4.jpg"
       ]
     },
     {
