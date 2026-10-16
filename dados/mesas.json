@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-16T04:27:54.652Z",
+  "atualizado_em": "2026-10-16T04:29:20.905Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 58,
+  "total_disponiveis": 57,
   "mesas": [
     {
       "codigo": "98",
@@ -1242,11 +1242,11 @@
       "altura_cm": 85,
       "lugares": 10,
       "preco_a_vista": 99999,
-      "status": "disponivel",
+      "status": "reservado",
       "fotos": [
         "fotos/114-6wo9m7.jpg"
       ],
-      "disponivel": true,
+      "disponivel": false,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
       "medidas": "300 x 100 cm (altura 85 cm)",
