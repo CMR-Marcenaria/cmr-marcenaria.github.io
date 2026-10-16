@@ -4,11 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mesa — CMR Marcenaria</title>
+  <meta name="theme-color" content="#120b07">
+  <link rel="icon" href="assets/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/estilo.css">
 </head>
-<body>
+<body class="publico">
   <header class="topo"><div class="topo-dentro">
-    <a href="./" class="marca"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Mesas rústicas em madeira maciça</span></a>
+    <a href="./" class="marca">
+      <img src="assets/logo.jpg" alt="">
+      <span class="marca-textos"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Móveis rústicos</span></span>
+    </a>
   </div></header>
 
   <main class="conteudo">
@@ -16,7 +24,10 @@
     <div id="mesa"><p class="dica">Carregando…</p></div>
   </main>
 
-  <footer class="rodape">CMR Marcenaria · Peças únicas, feitas à mão</footer>
+  <footer class="rodape"><div class="rodape-dentro">
+    <img src="assets/logo.jpg" alt="">
+    <span>CMR Marcenaria · Móveis rústicos em madeira maciça, feitos à mão</span>
+  </div></footer>
 
   <script src="assets/comum.js"></script>
   <script>
@@ -40,9 +51,9 @@
           ${m.fotos.length > 1 ? `<div class="miniaturas">${m.fotos.map((f, i) => `<button class="${i === 0 ? "ativa" : ""}" data-i="${i}" aria-label="Foto ${i + 1}"><img src="${esc(f)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
         </div>
         <div class="ficha">
-          <span class="codigo">${esc(m.codigo)}</span>
+          <span class="codigo">Peça nº ${esc(m.codigo)}</span>
           <h1>${esc(m.nome)}</h1>
-          <span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>
+          <span class="selo selo-${m.status}">${m.status === "disponivel" ? "Pronta entrega" : STATUS_TEXTO[m.status]}</span>
           ${m.descricao ? `<p style="margin:0">${esc(m.descricao)}</p>` : ""}
           <dl>
             ${linha("Medidas", medidasTexto(m))}

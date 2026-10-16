@@ -3,69 +3,128 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CMR Marcenaria — Catálogo de Mesas Rústicas</title>
-  <meta name="description" content="Mesas rústicas de madeira maciça da CMR Marcenaria: medidas, fotos e valores das peças disponíveis.">
+  <title>CMR Marcenaria — Móveis Rústicos em Madeira Maciça</title>
+  <meta name="description" content="Mesas e móveis rústicos de madeira maciça feitos à mão pela CMR Marcenaria. Veja medidas, fotos e valores das peças a pronta entrega.">
+  <meta property="og:title" content="CMR Marcenaria — Móveis Rústicos">
+  <meta property="og:description" content="Mesas rústicas de madeira maciça a pronta entrega.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <meta name="theme-color" content="#120b07">
+  <link rel="icon" href="assets/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/estilo.css">
 </head>
-<body>
+<body class="publico">
   <header class="topo"><div class="topo-dentro">
-    <a href="./" class="marca"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Mesas rústicas em madeira maciça</span></a>
+    <a href="./" class="marca">
+      <img src="assets/logo.jpg" alt="">
+      <span class="marca-textos"><span class="marca-nome">CMR Marcenaria</span><span class="marca-sub">Móveis rústicos</span></span>
+    </a>
+    <a class="botao whats" id="topo-whats" target="_blank" rel="noopener noreferrer" hidden>WhatsApp</a>
   </div></header>
 
-  <main class="conteudo">
-    <h1>Catálogo de mesas</h1>
-    <p class="subtitulo">Peças prontas para entrega. Toque numa mesa para ver fotos e detalhes.</p>
+  <section class="hero">
+    <div class="hero-dentro">
+      <img class="hero-logo" src="assets/logo.jpg" alt="CMR Marcenaria — Móveis Rústicos">
+      <div>
+        <h1>Mesas rústicas de <span>madeira maciça</span></h1>
+        <p>Peças únicas, feitas à mão com madeiras nobres. Escolha a sua mesa a pronta entrega ou fale com a gente para fazer sob medida.</p>
+        <div class="numeros" id="numeros"></div>
+        <div class="linha-botoes">
+          <a href="#catalogo" class="botao ouro">Ver o catálogo</a>
+          <a class="botao secundario" id="hero-whats" target="_blank" rel="noopener noreferrer" hidden>Falar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="conteudo" id="catalogo">
+    <div class="secao-titulo">
+      <div>
+        <h2 class="titulo">Pronta entrega</h2>
+        <p class="subtitulo">Toque numa peça para ver fotos, medidas e valor.</p>
+      </div>
+      <span class="contador" id="contador"></span>
+    </div>
     <nav class="filtros" id="filtros" aria-label="Filtrar por tamanho"></nav>
     <div id="lista"><p class="dica">Carregando…</p></div>
   </main>
 
-  <footer class="rodape">CMR Marcenaria · Peças únicas, feitas à mão</footer>
+  <footer class="rodape"><div class="rodape-dentro">
+    <img src="assets/logo.jpg" alt="">
+    <span>CMR Marcenaria · Móveis rústicos em madeira maciça, feitos à mão</span>
+  </div></footer>
 
   <script src="assets/comum.js"></script>
   <script>
     let dados = null;
-    let categoria = Number(new URLSearchParams(location.search).get("categoria")) || null;
+    // 0 = peças fora das faixas de mesa (cadeiras, bancos, mesas pequenas)
+    const pedido = new URLSearchParams(location.search).get("categoria");
+    let categoria = pedido === null ? null : Number(pedido);
 
     function desenhar() {
-      const filtros = document.getElementById("filtros");
-      filtros.innerHTML = [`<button class="chip ${!categoria ? "ativo" : ""}" data-cat="">Todas</button>`]
-        .concat(FAIXAS.map((f) => `<button class="chip ${categoria === f.categoria ? "ativo" : ""}" data-cat="${f.categoria}">${faixaTexto(f.categoria)}</button>`))
-        .join("");
+      const aVenda = dados.mesas.filter((m) => m.status !== "vendido");
+      const temOutras = aVenda.some((m) => !categoriaDe(m.comprimento_cm));
+      const opcoes = [[null, "Todas"], ...FAIXAS.map((f) => [f.categoria, faixaTexto(f.categoria)]), ...(temOutras ? [[0, "Outras peças"]] : [])];
+      document.getElementById("filtros").innerHTML = opcoes
+        .map(([v, t]) => `<button class="chip ${categoria === v ? "ativo" : ""}" data-cat="${v ?? ""}">${t}</button>`).join("");
 
-      const mesas = dados.mesas
-        .filter((m) => m.status !== "vendido")
-        .filter((m) => !categoria || categoriaDe(m.comprimento_cm) === categoria)
-        .sort((a, b) => a.comprimento_cm - b.comprimento_cm);
+      const mesas = aVenda
+        .filter((m) => categoria === null || (categoria === 0 ? !categoriaDe(m.comprimento_cm) : categoriaDe(m.comprimento_cm) === categoria))
+        // Mesas das faixas primeiro (da menor para a maior), peças avulsas no final
+        .sort((a, b) => (!categoriaDe(a.comprimento_cm) - !categoriaDe(b.comprimento_cm)) || a.comprimento_cm - b.comprimento_cm);
+      document.getElementById("contador").textContent = `${mesas.length} ${mesas.length === 1 ? "peça" : "peças"}`;
 
       const lista = document.getElementById("lista");
       if (mesas.length === 0) {
-        lista.innerHTML = `<div class="vazio">Nenhuma mesa disponível ${categoria ? "nesse tamanho " : ""}no momento. Fale com a gente: fazemos sob medida.</div>`;
+        lista.innerHTML = `<div class="vazio">Nenhuma peça disponível nesse tamanho no momento. Fale com a gente: fazemos sob medida.</div>`;
         return;
       }
       lista.innerHTML = `<div class="grade">${mesas.map((m) => {
         const cat = categoriaDe(m.comprimento_cm);
         return `<a class="cartao" href="mesa.html?c=${encodeURIComponent(m.codigo)}">
-          <div class="foto">${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}" loading="lazy">` : "<span>Foto em breve</span>"}</div>
+          <div class="foto">
+            ${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}" loading="lazy">` : "<span>Foto em breve</span>"}
+            <span class="etiqueta">Nº ${esc(m.codigo)}</span>
+            ${m.status !== "disponivel" ? `<span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>` : ""}
+          </div>
           <div class="cartao-corpo">
-            <span class="codigo">${esc(m.codigo)}${cat ? ` · Categoria ${cat}` : ""}</span>
+            <span class="codigo">${cat ? `Categoria ${cat} · ${faixaTexto(cat)}` : "Peça avulsa"}${m.madeira ? ` · ${esc(m.madeira)}` : ""}</span>
             <span class="nome">${esc(m.nome)}</span>
             <span class="medidas">${esc(medidasTexto(m))}${m.lugares ? ` · ${m.lugares} lugares` : ""}</span>
-            <span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>
             <span class="preco">${precoTexto(m.preco_a_vista)} ${m.preco_a_vista != null ? "<small>à vista</small>" : ""}</span>
           </div></a>`;
       }).join("")}</div>`;
     }
 
+    function desenharTopo() {
+      const disponiveis = dados.mesas.filter((m) => m.status === "disponivel");
+      const madeiras = new Set(disponiveis.map((m) => m.madeira).filter(Boolean));
+      const maior = Math.max(0, ...disponiveis.map((m) => m.comprimento_cm));
+      document.getElementById("numeros").innerHTML = [
+        [disponiveis.length, "peças a pronta entrega"],
+        ...(madeiras.size ? [[madeiras.size, "madeiras nobres"]] : []),
+        ...(maior ? [[`${(maior / 100).toLocaleString("pt-BR")} m`, "a maior mesa"]] : []),
+      ].map(([n, t]) => `<div class="numero"><b>${n}</b><span>${t}</span></div>`).join("");
+
+      const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, "Olá! Vi o catálogo da CMR Marcenaria e gostaria de mais informações.");
+      for (const id of ["topo-whats", "hero-whats"]) {
+        const a = document.getElementById(id);
+        if (whats) { a.href = whats; a.hidden = false; }
+      }
+    }
+
     document.getElementById("filtros").addEventListener("click", (e) => {
       const b = e.target.closest("[data-cat]");
       if (!b) return;
-      categoria = Number(b.dataset.cat) || null;
-      history.replaceState(null, "", categoria ? `?categoria=${categoria}` : "./");
+      categoria = b.dataset.cat === "" ? null : Number(b.dataset.cat);
+      history.replaceState(null, "", categoria === null ? "./#catalogo" : `?categoria=${categoria}#catalogo`);
       desenhar();
     });
 
     carregarCatalogo()
-      .then((d) => { dados = d; desenhar(); })
+      .then((d) => { dados = d; desenharTopo(); desenhar(); })
       .catch((e) => { document.getElementById("lista").innerHTML = `<div class="vazio">${esc(e.message)}</div>`; });
   </script>
 </body>
