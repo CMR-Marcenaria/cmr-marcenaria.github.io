@@ -92,12 +92,16 @@ function reduzirImagem(arquivo, larguraMax = 1600, qualidade = 0.85) {
   });
 }
 
+/** Continua a numeração existente: "113" vira "114"; "CMR-007" vira "CMR-008". */
 function proximoCodigo() {
-  const maior = dados.mesas.reduce((max, m) => {
-    const n = Number((/^CMR-(\d+)$/i.exec(m.codigo) || [])[1]);
-    return n > max ? n : max;
-  }, 0);
-  return `CMR-${String(maior + 1).padStart(3, "0")}`;
+  let maior = 0;
+  let prefixo = dados.mesas.length ? "" : "CMR-";
+  let digitos = dados.mesas.length ? 1 : 3;
+  for (const m of dados.mesas) {
+    const r = /^(.*?)(\d+)$/.exec(m.codigo);
+    if (r && Number(r[2]) >= maior) { maior = Number(r[2]); prefixo = r[1]; digitos = r[2].length; }
+  }
+  return `${prefixo}${String(maior + 1).padStart(digitos, "0")}`;
 }
 
 function limpar(m) {

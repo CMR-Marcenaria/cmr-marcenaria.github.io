@@ -4,8 +4,1377 @@
     "whatsapp": ""
   },
   "site": "https://guilhermegestorspec.github.io/catalogo-cmr",
-  "atualizado_em": "2026-10-16T00:00:00.000Z",
+  "atualizado_em": "2026-10-16T03:19:31.078Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 0,
-  "mesas": []
+  "total_disponiveis": 57,
+  "mesas": [
+    {
+      "codigo": "98",
+      "nome": "Banquetas altas",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 50,
+      "largura_cm": 50,
+      "altura_cm": 70,
+      "lugares": 4,
+      "preco_a_vista": 550,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/98-1-h6004c.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "50 x 50 cm (altura 70 cm)",
+      "preco_texto": "R$ 550,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=98",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/98-1-h6004c.jpg"
+      ]
+    },
+    {
+      "codigo": "97",
+      "nome": "Cadeiras alphas",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 50,
+      "largura_cm": 50,
+      "altura_cm": 50,
+      "lugares": 4,
+      "preco_a_vista": 470,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/97-1-a8g20z.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "50 x 50 cm (altura 50 cm)",
+      "preco_texto": "R$ 470,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=97",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/97-1-a8g20z.jpg"
+      ]
+    },
+    {
+      "codigo": "59",
+      "nome": "Cadeiras Paris",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 50,
+      "largura_cm": 50,
+      "altura_cm": 50,
+      "lugares": 4,
+      "preco_a_vista": 450,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/59-1-qgvavv.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "50 x 50 cm (altura 50 cm)",
+      "preco_texto": "R$ 450,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=59",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/59-1-qgvavv.jpg"
+      ]
+    },
+    {
+      "codigo": "60",
+      "nome": "Cadeiras poltrona",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 60,
+      "largura_cm": 60,
+      "altura_cm": 50,
+      "lugares": 4,
+      "preco_a_vista": 525,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/60-1-r20fom.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "60 x 60 cm (altura 50 cm)",
+      "preco_texto": "R$ 525,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=60",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/60-1-r20fom.jpg"
+      ]
+    },
+    {
+      "codigo": "44",
+      "nome": "Mesa prancha 4 lugares",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 100,
+      "largura_cm": 70,
+      "altura_cm": 80,
+      "lugares": 4,
+      "preco_a_vista": 1500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/44-1-i0h83o.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "100 x 70 cm (altura 80 cm)",
+      "preco_texto": "R$ 1.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=44",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/44-1-i0h83o.jpg"
+      ]
+    },
+    {
+      "codigo": "39",
+      "nome": "Mesa prancha 4 lugares",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 100,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 4,
+      "preco_a_vista": 1400,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/39-1-ze1ba8.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "100 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 1.400,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=39",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/39-1-ze1ba8.jpg"
+      ]
+    },
+    {
+      "codigo": "48",
+      "nome": "Mesa prancha orgânica 8 lugares",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 140,
+      "largura_cm": 140,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 2600,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/48-1-p3swyv.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "140 x 140 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.600,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=48",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/48-1-p3swyv.jpg"
+      ]
+    },
+    {
+      "codigo": "33",
+      "nome": "Mesa prancha 4 lugares ct 1",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 140,
+      "largura_cm": 95,
+      "altura_cm": 80,
+      "lugares": 4,
+      "preco_a_vista": 1400,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/33-1-04irmy.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "140 x 95 cm (altura 80 cm)",
+      "preco_texto": "R$ 1.400,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=33",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/33-1-04irmy.jpg"
+      ]
+    },
+    {
+      "codigo": "101",
+      "nome": "Bancos jardim",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 160,
+      "largura_cm": 50,
+      "altura_cm": 50,
+      "lugares": 4,
+      "preco_a_vista": 3800,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/101-1-rkos12.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "160 x 50 cm (altura 50 cm)",
+      "preco_texto": "R$ 3.800,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=101",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/101-1-rkos12.jpg"
+      ]
+    },
+    {
+      "codigo": "72",
+      "nome": "Mesa Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 160,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 4,
+      "preco_a_vista": 2500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/72-1-vn5jsk.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "160 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=72",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/72-1-vn5jsk.jpg"
+      ]
+    },
+    {
+      "codigo": "92",
+      "nome": "Mesa prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 190,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 5,
+      "preco_a_vista": null,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/92-1-ei3xu7.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "190 x 90 cm (altura 80 cm)",
+      "preco_texto": "Sob consulta",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=92",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/92-1-ei3xu7.jpg"
+      ]
+    },
+    {
+      "codigo": "89",
+      "nome": "Mesa prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 190,
+      "largura_cm": 85,
+      "altura_cm": 80,
+      "lugares": 5,
+      "preco_a_vista": 2999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/89-1-bedyln.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "190 x 85 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.999,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=89",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/89-1-bedyln.jpg"
+      ]
+    },
+    {
+      "codigo": "112",
+      "nome": "Mesa ipê",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 200,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": null,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/112-1-8h2ef1.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 90 cm (altura 80 cm)",
+      "preco_texto": "Sob consulta",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=112",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/112-1-8h2ef1.jpg"
+      ]
+    },
+    {
+      "codigo": "96",
+      "nome": "Mesa redonda",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 200,
+      "largura_cm": 200,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 2700,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/96-1-ppiwnn.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 200 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.700,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=96",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/96-1-ppiwnn.jpg"
+      ]
+    },
+    {
+      "codigo": "94",
+      "nome": "Mesa garapeira",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 200,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2990,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/94-1-638k6h.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.990,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=94",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/94-1-638k6h.jpg"
+      ]
+    },
+    {
+      "codigo": "90",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 88,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 3000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/90-1-qcjfqc.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 88 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.000,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=90",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/90-1-qcjfqc.jpg"
+      ]
+    },
+    {
+      "codigo": "88",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 3050,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/88-1-enwhhh.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.050,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=88",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/88-1-enwhhh.jpg"
+      ]
+    },
+    {
+      "codigo": "85",
+      "nome": "Mesa Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 95,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 3290,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/85-1-ecsrsa.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 95 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.290,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=85",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/85-1-ecsrsa.jpg"
+      ]
+    },
+    {
+      "codigo": "76",
+      "nome": "Mesa pequiá prancha",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2700,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/76-1-6d1eac.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.700,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=76",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/76-1-6d1eac.jpg"
+      ]
+    },
+    {
+      "codigo": "71",
+      "nome": "Mesa Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 85,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/71-1-yd7vdy.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 85 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.999,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=71",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/71-1-yd7vdy.jpg"
+      ]
+    },
+    {
+      "codigo": "70",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 85,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/70-1-snv36a.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 85 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.999,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=70",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/70-1-snv36a.jpg"
+      ]
+    },
+    {
+      "codigo": "67",
+      "nome": "Mesa Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2900,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/67-1-8u60jt.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.900,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=67",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/67-1-8u60jt.jpg"
+      ]
+    },
+    {
+      "codigo": "51",
+      "nome": "Mesa prancha Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 200,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 4600,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/51-1-n2m8yl.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 4.600,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=51",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/51-1-n2m8yl.jpg"
+      ]
+    },
+    {
+      "codigo": "32",
+      "nome": "Bancos industriais",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 200,
+      "largura_cm": 30,
+      "altura_cm": 50,
+      "lugares": 6,
+      "preco_a_vista": 2200,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/32-1-1qv47l.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 30 cm (altura 50 cm)",
+      "preco_texto": "R$ 2.200,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=32",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/32-1-1qv47l.jpg"
+      ]
+    },
+    {
+      "codigo": "14",
+      "nome": "Mesa prancha Mirindiba",
+      "descricao": null,
+      "madeira": "Mirindiba",
+      "comprimento_cm": 200,
+      "largura_cm": 78,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2550,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/14-1-f6a461.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 78 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.550,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=14",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/14-1-f6a461.jpg"
+      ]
+    },
+    {
+      "codigo": "13",
+      "nome": "Mesa prancha cozinha Pinheiro",
+      "descricao": null,
+      "madeira": "Pinheiro",
+      "comprimento_cm": 200,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 6,
+      "preco_a_vista": 2500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/13-1-bxaz21.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 1,
+      "faixa_comprimento": "200–225 cm",
+      "medidas": "200 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=13",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/13-1-bxaz21.jpg"
+      ]
+    },
+    {
+      "codigo": "95",
+      "nome": "Mesa redonda",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 250,
+      "largura_cm": 250,
+      "altura_cm": 80,
+      "lugares": 12,
+      "preco_a_vista": 2550,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/95-1-67x4v9.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 250 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.550,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=95",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/95-1-67x4v9.jpg"
+      ]
+    },
+    {
+      "codigo": "93",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 250,
+      "largura_cm": 88,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 3510,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/93-1-1hz0il.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 88 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.510,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=93",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/93-1-1hz0il.jpg"
+      ]
+    },
+    {
+      "codigo": "84",
+      "nome": "Mesa prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 250,
+      "largura_cm": 95,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 3480,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/84-1-qa3a8q.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 95 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.480,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=84",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/84-1-qa3a8q.jpg"
+      ]
+    },
+    {
+      "codigo": "78",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 250,
+      "largura_cm": 80,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 3325,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/78-1-pxusgl.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 80 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.325,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=78",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/78-1-pxusgl.jpg"
+      ]
+    },
+    {
+      "codigo": "06",
+      "nome": "Mesa prancha Pequia Branco",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 250,
+      "largura_cm": 90,
+      "altura_cm": null,
+      "lugares": 8,
+      "preco_a_vista": 3200,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/06-1-0dakmr.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 90 cm",
+      "preco_texto": "R$ 3.200,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=06",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/06-1-0dakmr.jpg"
+      ]
+    },
+    {
+      "codigo": "10",
+      "nome": "Mesa prancha Pequia com Resina",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 260,
+      "largura_cm": 120,
+      "altura_cm": null,
+      "lugares": 8,
+      "preco_a_vista": 3450,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/10-1-xlpbkv.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "260 x 120 cm",
+      "preco_texto": "R$ 3.450,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=10",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/10-1-xlpbkv.jpg"
+      ]
+    },
+    {
+      "codigo": "58",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 265,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 3550,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/58-1-dkv1mb.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "265 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.550,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=58",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/58-1-dkv1mb.jpg"
+      ]
+    },
+    {
+      "codigo": "110",
+      "nome": "Mesa prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 270,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 8,
+      "preco_a_vista": 3560,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/110-1-dc5obe.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "270 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.560,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=110",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/110-1-dc5obe.jpg"
+      ]
+    },
+    {
+      "codigo": "05",
+      "nome": "Mesa prancha Garapeira",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 270,
+      "largura_cm": 90,
+      "altura_cm": null,
+      "lugares": 8,
+      "preco_a_vista": 3480,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/05-1-gj6to6.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "270 x 90 cm",
+      "preco_texto": "R$ 3.480,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=05",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/05-1-gj6to6.jpg"
+      ]
+    },
+    {
+      "codigo": "113",
+      "nome": "Prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 280,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 9,
+      "preco_a_vista": 3500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/113-1-rhaolm.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "280 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=113",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/113-1-rhaolm.jpg"
+      ]
+    },
+    {
+      "codigo": "56",
+      "nome": "Mesa prancha Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 280,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 9,
+      "preco_a_vista": 3480,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/56-1-x0k4bl.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "280 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.480,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=56",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/56-1-x0k4bl.jpg"
+      ]
+    },
+    {
+      "codigo": "111",
+      "nome": "Mesa e bancos",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 5500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/111-1-4njyy8.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 5.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=111",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/111-1-4njyy8.jpg"
+      ]
+    },
+    {
+      "codigo": "108",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 8850,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/108-1-bwz2c6.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.850,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=108",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/108-1-bwz2c6.jpg"
+      ]
+    },
+    {
+      "codigo": "107",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 8800,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/107-1-hq8f1g.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.800,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=107",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/107-1-hq8f1g.jpg"
+      ]
+    },
+    {
+      "codigo": "106",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 105000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/106-1-mzq9c4.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 105.000,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=106",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/106-1-mzq9c4.jpg"
+      ]
+    },
+    {
+      "codigo": "80",
+      "nome": "Mesa pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3950,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/80-1-5sey0j.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.950,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=80",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/80-1-5sey0j.jpg"
+      ]
+    },
+    {
+      "codigo": "75",
+      "nome": "Mesa prancha",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 300,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3750,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/75-1-aopbw2.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.750,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=75",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/75-1-aopbw2.jpg"
+      ]
+    },
+    {
+      "codigo": "73",
+      "nome": "Mesa pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 95,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3850,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/73-1-8owzc3.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 95 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.850,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=73",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/73-1-8owzc3.jpg"
+      ]
+    },
+    {
+      "codigo": "69",
+      "nome": "Mesa Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3750,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/69-1-r30w54.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.750,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=69",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/69-1-r30w54.jpg"
+      ]
+    },
+    {
+      "codigo": "55",
+      "nome": "Mesa prancha Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3890,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/55-1-i6qdh8.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.890,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=55",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/55-1-i6qdh8.jpg"
+      ]
+    },
+    {
+      "codigo": "24",
+      "nome": "Mesa prancha pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3200,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/24-1-uatpqf.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.200,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=24",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/24-1-uatpqf.jpg"
+      ]
+    },
+    {
+      "codigo": "21",
+      "nome": "Mesa prancha Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 80,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 3000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/21-1-d3nluq.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 80 cm (altura 80 cm)",
+      "preco_texto": "R$ 3.000,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=21",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/21-1-d3nluq.jpg"
+      ]
+    },
+    {
+      "codigo": "19",
+      "nome": "Mesa prancha canela",
+      "descricao": null,
+      "madeira": "Canela",
+      "comprimento_cm": 300,
+      "largura_cm": 70,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 2500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/19-1-09nbjx.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 70 cm (altura 80 cm)",
+      "preco_texto": "R$ 2.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=19",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/19-1-09nbjx.jpg"
+      ]
+    },
+    {
+      "codigo": "08",
+      "nome": "Mesa prancha Pequia (conjunto c/ bancos)",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 95,
+      "altura_cm": null,
+      "lugares": 10,
+      "preco_a_vista": 5500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/08-1-afihvo.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 95 cm",
+      "preco_texto": "R$ 5.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=08",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/08-1-afihvo.jpg"
+      ]
+    },
+    {
+      "codigo": "04",
+      "nome": "Mesa prancha Pequia",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": null,
+      "lugares": 10,
+      "preco_a_vista": 3500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/04-1-bo95ic.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm",
+      "preco_texto": "R$ 3.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=04",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/04-1-bo95ic.jpg"
+      ]
+    },
+    {
+      "codigo": "18",
+      "nome": "Mesa prancha garapeira",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 320,
+      "largura_cm": 90,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 4000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/18-1-b4mgnh.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "320 x 90 cm (altura 80 cm)",
+      "preco_texto": "R$ 4.000,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=18",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/18-1-b4mgnh.jpg"
+      ]
+    },
+    {
+      "codigo": "109",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 350,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 12,
+      "preco_a_vista": 8900,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/109-1-bh8jp2.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 4,
+      "faixa_comprimento": "325–370 cm",
+      "medidas": "350 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.900,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=109",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/109-1-bh8jp2.jpg"
+      ]
+    },
+    {
+      "codigo": "16",
+      "nome": "Mesa prancha Angelin pedra",
+      "descricao": null,
+      "madeira": "Angelim pedra",
+      "comprimento_cm": 400,
+      "largura_cm": 95,
+      "altura_cm": 80,
+      "lugares": 14,
+      "preco_a_vista": 5350,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/16-1-bvwp0v.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 5,
+      "faixa_comprimento": "370–430 cm",
+      "medidas": "400 x 95 cm (altura 80 cm)",
+      "preco_texto": "R$ 5.350,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=16",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/16-1-bvwp0v.jpg"
+      ]
+    },
+    {
+      "codigo": "62",
+      "nome": "Mesa cascata pequiá tingido",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 420,
+      "largura_cm": 120,
+      "altura_cm": 80,
+      "lugares": 14,
+      "preco_a_vista": 8000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/62-1-wktujs.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 5,
+      "faixa_comprimento": "370–430 cm",
+      "medidas": "420 x 120 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.000,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=62",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/62-1-wktujs.jpg"
+      ]
+    },
+    {
+      "codigo": "105",
+      "nome": "Mesa cascata garapeira",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 480,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 17,
+      "preco_a_vista": 11500,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/105-1-5zvuoz.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 6,
+      "faixa_comprimento": "430–600 cm",
+      "medidas": "480 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 11.500,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=105",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/105-1-5zvuoz.jpg"
+      ]
+    },
+    {
+      "codigo": "30",
+      "nome": "Mesa cascata pequiá ct cascata",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 500,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 18,
+      "preco_a_vista": 9200,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/30-1-2g7pit.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 6,
+      "faixa_comprimento": "430–600 cm",
+      "medidas": "500 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 9.200,00",
+      "link": "https://guilhermegestorspec.github.io/catalogo-cmr/mesa.html?c=30",
+      "fotos_url": [
+        "https://guilhermegestorspec.github.io/catalogo-cmr/fotos/30-1-2g7pit.jpg"
+      ]
+    }
+  ]
 }
