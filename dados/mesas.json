@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-16T04:15:18.583Z",
+  "atualizado_em": "2026-10-16T04:27:54.652Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 57,
+  "total_disponiveis": 58,
   "mesas": [
     {
       "codigo": "98",
@@ -1230,6 +1230,30 @@
       "link": "https://cmr-marcenaria.github.io/m/04",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/04-1-bo95ic.jpg"
+      ]
+    },
+    {
+      "codigo": "114",
+      "nome": "TESTE",
+      "descricao": null,
+      "madeira": "peroba",
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 85,
+      "lugares": 10,
+      "preco_a_vista": 99999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/114-6wo9m7.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 85 cm)",
+      "preco_texto": "R$ 99.999,00",
+      "link": "https://cmr-marcenaria.github.io/m/114",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/114-6wo9m7.jpg"
       ]
     },
     {
