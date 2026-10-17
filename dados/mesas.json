@@ -4,10 +4,34 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-16T13:36:20.673Z",
+  "atualizado_em": "2026-10-17T12:35:36.639Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 56,
+  "total_disponiveis": 57,
   "mesas": [
+    {
+      "codigo": "114",
+      "nome": "Mesa cascata pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 4,
+      "largura_cm": 1.1,
+      "altura_cm": 0.8,
+      "lugares": 12,
+      "preco_a_vista": 8999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/114-l8n42y.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "4 x 1,1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 8.999,00",
+      "link": "https://cmr-marcenaria.github.io/m/114",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg"
+      ]
+    },
     {
       "codigo": "98",
       "nome": "Banquetas altas",
