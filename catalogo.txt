@@ -1,5 +1,5 @@
 CATÁLOGO CMR MARCENARIA — MESAS RÚSTICAS DISPONÍVEIS
-Atualizado em 17/10/2026, 09:36. Total disponível: 58.
+Atualizado em 17/10/2026, 09:39. Total disponível: 59.
 Valores à vista. Só estão listadas mesas prontas e disponíveis para venda.
 Ao responder o cliente, envie o nome, as medidas, o valor e o link da mesa.
 WhatsApp da CMR para fechar a compra: +5545920016018
@@ -17,6 +17,13 @@ WhatsApp da CMR para fechar a compra: +5545920016018
   Valor à vista: R$ 8.999,00
   Link: https://cmr-marcenaria.github.io/m/114
   Foto: https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg
+
+[116] Mesa cascata
+  Medidas: 4,5 x 1,2 cm (altura 0,8 cm) · 14 lugares
+  Madeira: Pequiá
+  Valor à vista: R$ 9.000,00
+  Link: https://cmr-marcenaria.github.io/m/116
+  Foto: https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg
 
 [98] Banquetas altas
   Medidas: 50 x 50 cm (altura 70 cm) · 4 lugares
