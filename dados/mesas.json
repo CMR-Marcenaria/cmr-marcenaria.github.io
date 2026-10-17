@@ -4,10 +4,34 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-17T12:35:36.639Z",
+  "atualizado_em": "2026-10-17T12:36:16.967Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 57,
+  "total_disponiveis": 58,
   "mesas": [
+    {
+      "codigo": "115",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 3.3,
+      "largura_cm": 1,
+      "altura_cm": 0.8,
+      "lugares": 10,
+      "preco_a_vista": 8750,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/115-1uauhe.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "3,3 x 1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 8.750,00",
+      "link": "https://cmr-marcenaria.github.io/m/115",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg"
+      ]
+    },
     {
       "codigo": "114",
       "nome": "Mesa cascata pequiá",
