@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-19T22:09:08.239Z",
+  "atualizado_em": "2026-10-19T22:13:55.090Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 62,
+  "total_disponiveis": 63,
   "mesas": [
     {
       "codigo": "119",
@@ -30,6 +30,30 @@
       "link": "https://cmr-marcenaria.github.io/m/119",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/119-j1fhxt.jpg"
+      ]
+    },
+    {
+      "codigo": "120",
+      "nome": "Mesa e bancos",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 3,
+      "largura_cm": 1,
+      "altura_cm": 0.8,
+      "lugares": 10,
+      "preco_a_vista": 5.6,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/120-exhe8h.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "3 x 1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 5,60",
+      "link": "https://cmr-marcenaria.github.io/m/120",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/120-exhe8h.jpg"
       ]
     },
     {
