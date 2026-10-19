@@ -1,36 +1,8 @@
 CATÁLOGO CMR MARCENARIA — MESAS RÚSTICAS DISPONÍVEIS
-Atualizado em 17/10/2026, 09:40. Total disponível: 60.
+Atualizado em 19/10/2026, 10:07. Total disponível: 60.
 Valores à vista. Só estão listadas mesas prontas e disponíveis para venda.
 Ao responder o cliente, envie o nome, as medidas, o valor e o link da mesa.
 WhatsApp da CMR para fechar a compra: +5545920016018
-
-[115] Mesa cascata
-  Medidas: 3,3 x 1 cm (altura 0,8 cm) · 10 lugares
-  Madeira: Pequiá
-  Valor à vista: R$ 8.750,00
-  Link: https://cmr-marcenaria.github.io/m/115
-  Foto: https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg
-
-[114] Mesa cascata pequiá
-  Medidas: 4 x 1,1 cm (altura 0,8 cm) · 12 lugares
-  Madeira: Pequiá
-  Valor à vista: R$ 8.999,00
-  Link: https://cmr-marcenaria.github.io/m/114
-  Foto: https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg
-
-[117] Mesa cascata
-  Medidas: 4,2 x 1,2 cm (altura 0,8 cm) · 12 lugares
-  Madeira: Pequiá
-  Valor à vista: R$ 8.880,00
-  Link: https://cmr-marcenaria.github.io/m/117
-  Foto: https://cmr-marcenaria.github.io/fotos/117-oyq0qg.jpg
-
-[116] Mesa cascata
-  Medidas: 4,5 x 1,2 cm (altura 0,8 cm) · 14 lugares
-  Madeira: Pequiá
-  Valor à vista: R$ 9.000,00
-  Link: https://cmr-marcenaria.github.io/m/116
-  Foto: https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg
 
 [98] Banquetas altas
   Medidas: 50 x 50 cm (altura 70 cm) · 4 lugares
@@ -367,11 +339,25 @@ WhatsApp da CMR para fechar a compra: +5545920016018
   Link: https://cmr-marcenaria.github.io/m/18
   Foto: https://cmr-marcenaria.github.io/fotos/18-1-b4mgnh.jpg
 
+[115] Mesa cascata
+  Medidas: 330 x 100 cm (altura 80 cm) · Categoria 4 · 10 lugares
+  Madeira: Pequiá
+  Valor à vista: R$ 8.750,00
+  Link: https://cmr-marcenaria.github.io/m/115
+  Foto: https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg
+
 [109] Mesa cascata
   Medidas: 350 x 100 cm (altura 80 cm) · Categoria 4 · 12 lugares
   Valor à vista: R$ 8.900,00
   Link: https://cmr-marcenaria.github.io/m/109
   Foto: https://cmr-marcenaria.github.io/fotos/109-1-bh8jp2.jpg
+
+[114] Mesa cascata pequiá
+  Medidas: 400 x 110 cm (altura 80 cm) · Categoria 5 · 12 lugares
+  Madeira: Pequiá
+  Valor à vista: R$ 8.999,00
+  Link: https://cmr-marcenaria.github.io/m/114
+  Foto: https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg
 
 [16] Mesa prancha Angelin pedra
   Medidas: 400 x 95 cm (altura 80 cm) · Categoria 5 · 14 lugares
@@ -380,12 +366,26 @@ WhatsApp da CMR para fechar a compra: +5545920016018
   Link: https://cmr-marcenaria.github.io/m/16
   Foto: https://cmr-marcenaria.github.io/fotos/16-1-bvwp0v.jpg
 
+[117] Mesa cascata
+  Medidas: 415 x 120 cm (altura 80 cm) · Categoria 5 · 12 lugares
+  Madeira: Pequiá
+  Valor à vista: R$ 8.880,00
+  Link: https://cmr-marcenaria.github.io/m/117
+  Foto: https://cmr-marcenaria.github.io/fotos/117-oyq0qg.jpg
+
 [62] Mesa cascata pequiá tingido
   Medidas: 420 x 120 cm (altura 80 cm) · Categoria 5 · 14 lugares
   Madeira: Pequiá
   Valor à vista: R$ 8.000,00
   Link: https://cmr-marcenaria.github.io/m/62
   Foto: https://cmr-marcenaria.github.io/fotos/62-1-wktujs.jpg
+
+[116] Mesa cascata
+  Medidas: 450 x 120 cm (altura 80 cm) · Categoria 6 · 14 lugares
+  Madeira: Pequiá
+  Valor à vista: R$ 9.000,00
+  Link: https://cmr-marcenaria.github.io/m/116
+  Foto: https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg
 
 [105] Mesa cascata garapeira
   Medidas: 480 x 100 cm (altura 80 cm) · Categoria 6 · 17 lugares

@@ -4,106 +4,10 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-17T12:40:16.609Z",
+  "atualizado_em": "2026-10-19T13:07:18.330Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
   "total_disponiveis": 60,
   "mesas": [
-    {
-      "codigo": "115",
-      "nome": "Mesa cascata",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 3.3,
-      "largura_cm": 1,
-      "altura_cm": 0.8,
-      "lugares": 10,
-      "preco_a_vista": 8750,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/115-1uauhe.jpg"
-      ],
-      "disponivel": true,
-      "categoria": null,
-      "faixa_comprimento": null,
-      "medidas": "3,3 x 1 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 8.750,00",
-      "link": "https://cmr-marcenaria.github.io/m/115",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg"
-      ]
-    },
-    {
-      "codigo": "114",
-      "nome": "Mesa cascata pequiá",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 4,
-      "largura_cm": 1.1,
-      "altura_cm": 0.8,
-      "lugares": 12,
-      "preco_a_vista": 8999,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/114-l8n42y.jpg"
-      ],
-      "disponivel": true,
-      "categoria": null,
-      "faixa_comprimento": null,
-      "medidas": "4 x 1,1 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 8.999,00",
-      "link": "https://cmr-marcenaria.github.io/m/114",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg"
-      ]
-    },
-    {
-      "codigo": "117",
-      "nome": "Mesa cascata",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 4.15,
-      "largura_cm": 1.2,
-      "altura_cm": 0.8,
-      "lugares": 12,
-      "preco_a_vista": 8880,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/117-oyq0qg.jpg"
-      ],
-      "disponivel": true,
-      "categoria": null,
-      "faixa_comprimento": null,
-      "medidas": "4,2 x 1,2 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 8.880,00",
-      "link": "https://cmr-marcenaria.github.io/m/117",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/117-oyq0qg.jpg"
-      ]
-    },
-    {
-      "codigo": "116",
-      "nome": "Mesa cascata",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 4.5,
-      "largura_cm": 1.2,
-      "altura_cm": 0.8,
-      "lugares": 14,
-      "preco_a_vista": 9000,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/116-l3lwlh.jpg"
-      ],
-      "disponivel": true,
-      "categoria": null,
-      "faixa_comprimento": null,
-      "medidas": "4,5 x 1,2 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 9.000,00",
-      "link": "https://cmr-marcenaria.github.io/m/116",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg"
-      ]
-    },
     {
       "codigo": "98",
       "nome": "Banquetas altas",
@@ -1329,6 +1233,30 @@
       ]
     },
     {
+      "codigo": "115",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 330,
+      "largura_cm": 100,
+      "altura_cm": 80,
+      "lugares": 10,
+      "preco_a_vista": 8750,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/115-1uauhe.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 4,
+      "faixa_comprimento": "325–370 cm",
+      "medidas": "330 x 100 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.750,00",
+      "link": "https://cmr-marcenaria.github.io/m/115",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg"
+      ]
+    },
+    {
       "codigo": "109",
       "nome": "Mesa cascata",
       "descricao": null,
@@ -1350,6 +1278,30 @@
       "link": "https://cmr-marcenaria.github.io/m/109",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/109-1-bh8jp2.jpg"
+      ]
+    },
+    {
+      "codigo": "114",
+      "nome": "Mesa cascata pequiá",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 400,
+      "largura_cm": 110,
+      "altura_cm": 80,
+      "lugares": 12,
+      "preco_a_vista": 8999,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/114-l8n42y.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 5,
+      "faixa_comprimento": "370–430 cm",
+      "medidas": "400 x 110 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.999,00",
+      "link": "https://cmr-marcenaria.github.io/m/114",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg"
       ]
     },
     {
@@ -1377,6 +1329,30 @@
       ]
     },
     {
+      "codigo": "117",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 415,
+      "largura_cm": 120,
+      "altura_cm": 80,
+      "lugares": 12,
+      "preco_a_vista": 8880,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/117-oyq0qg.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 5,
+      "faixa_comprimento": "370–430 cm",
+      "medidas": "415 x 120 cm (altura 80 cm)",
+      "preco_texto": "R$ 8.880,00",
+      "link": "https://cmr-marcenaria.github.io/m/117",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/117-oyq0qg.jpg"
+      ]
+    },
+    {
       "codigo": "62",
       "nome": "Mesa cascata pequiá tingido",
       "descricao": null,
@@ -1398,6 +1374,30 @@
       "link": "https://cmr-marcenaria.github.io/m/62",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/62-1-wktujs.jpg"
+      ]
+    },
+    {
+      "codigo": "116",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 450,
+      "largura_cm": 120,
+      "altura_cm": 80,
+      "lugares": 14,
+      "preco_a_vista": 9000,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/116-l3lwlh.jpg"
+      ],
+      "disponivel": true,
+      "categoria": 6,
+      "faixa_comprimento": "430–600 cm",
+      "medidas": "450 x 120 cm (altura 80 cm)",
+      "preco_texto": "R$ 9.000,00",
+      "link": "https://cmr-marcenaria.github.io/m/116",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg"
       ]
     },
     {
