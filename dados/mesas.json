@@ -4,10 +4,34 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-19T22:07:44.249Z",
+  "atualizado_em": "2026-10-19T22:08:26.489Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 60,
+  "total_disponiveis": 61,
   "mesas": [
+    {
+      "codigo": "118",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 5.1,
+      "largura_cm": 1,
+      "altura_cm": 0.8,
+      "lugares": 16,
+      "preco_a_vista": 11650,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/118-ve6pgk.jpg"
+      ],
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "5,1 x 1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 11.650,00",
+      "link": "https://cmr-marcenaria.github.io/m/118",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/118-ve6pgk.jpg"
+      ]
+    },
     {
       "codigo": "98",
       "nome": "Banquetas altas",
