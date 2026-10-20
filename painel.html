@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/estilo.css?v=202610160122">
+  <link rel="stylesheet" href="assets/estilo.css?v=202610200900">
 </head>
 <body>
   <header class="topo"><div class="topo-dentro">
@@ -96,6 +96,13 @@
         <div class="fotos-edicao" id="form-fotos"></div>
         <div style="margin-top:10px"><input type="file" id="form-arquivos" accept="image/*" multiple></div>
         <p class="dica">A primeira foto é a capa. As fotos são reduzidas automaticamente antes de enviar.</p>
+        <h2 style="margin-top:18px">Vídeo <span class="dica">(opcional)</span></h2>
+        <div id="form-video"></div>
+        <div class="campos" style="margin-top:10px">
+          <label class="campo">Enviar vídeo do celular<input type="file" id="form-video-arquivo" accept="video/mp4,video/quicktime,video/webm,video/*"></label>
+          <label class="campo">ou cole um link do YouTube<input name="video_link" inputmode="url" placeholder="https://youtube.com/shorts/…"></label>
+        </div>
+        <p class="dica">Vídeo curto, de até 30 MB (cerca de 1 minuto). Para vídeos maiores, publique no YouTube e cole o link aqui.</p>
         <div class="linha-botoes">
           <button class="botao" id="btn-salvar">Salvar</button>
           <button type="button" class="botao secundario" id="btn-cancelar">Cancelar</button>
@@ -111,7 +118,7 @@
     </section>
   </main>
 
-  <script src="assets/comum.js?v=202610160122"></script>
-  <script src="assets/painel.js?v=202610160122"></script>
+  <script src="assets/comum.js?v=202610200900"></script>
+  <script src="assets/painel.js?v=202610200900"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 
 const API = "https://api.github.com";
 const CHAVE_LOCAL = "cmr_painel";
-const CAMPOS = ["codigo", "nome", "descricao", "madeira", "comprimento_cm", "largura_cm", "altura_cm", "lugares", "preco_a_vista", "status", "fotos"];
+const CAMPOS = ["codigo", "nome", "descricao", "madeira", "comprimento_cm", "largura_cm", "altura_cm", "lugares", "preco_a_vista", "status", "fotos", "video"];
 
 const $ = (id) => document.getElementById(id);
 let acesso = { dono: "", nome: "", chave: "", branch: "main" };
@@ -12,6 +12,8 @@ let filtro = "todas";
 let editando = null; // null | "nova" | mesa
 let fotosForm = []; // { caminho } já publicada  |  { arquivo, previa } nova
 let fotosRemovidas = [];
+let videoForm = { atual: null, arquivo: null, previa: null, removido: false };
+const VIDEO_MAX_MB = 30;
 
 // ── Utilidades ──────────────────────────────────────────────────────────────
 
@@ -229,7 +231,7 @@ function desenharLista() {
     return `<div class="item-admin ${m.status === "vendido" ? "vendido" : ""}">
       <div class="foto">${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="">` : `<span class="dica">sem foto</span>`}</div>
       <div>
-        <div class="codigo">${esc(m.codigo)}${cat ? ` · Cat. ${cat}` : ""} · ${m.fotos.length} foto(s)</div>
+        <div class="codigo">${esc(m.codigo)}${cat ? ` · Cat. ${cat}` : ""} · ${m.fotos.length} foto(s)${m.video ? " · vídeo" : ""}</div>
         <div class="nome">${esc(m.nome)}</div>
         <div class="medidas">${esc(medidasTexto(m))}</div>
         <div><strong>${precoTexto(m.preco_a_vista)}</strong> <span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span></div>
@@ -249,6 +251,8 @@ function abrirFormulario(mesa) {
   editando = mesa || "nova";
   fotosForm = (mesa ? mesa.fotos : []).map((caminho) => ({ caminho }));
   fotosRemovidas = [];
+  limparVideoForm();
+  videoForm.atual = mesa ? mesa.video : null;
   const f = $("form-mesa");
   f.reset();
   $("form-titulo").textContent = mesa ? `Editar ${mesa.codigo}` : "Nova mesa";
@@ -259,8 +263,10 @@ function abrirFormulario(mesa) {
   f.elements.codigo.placeholder = mesa ? "" : `automático (${proximoCodigo()})`;
   $("form-erro").textContent = "";
   $("form-progresso").textContent = "";
+  f.elements.video_link.value = videoForm.atual && /^https?:\/\//i.test(videoForm.atual) ? videoForm.atual : "";
   atualizarCategoria();
   desenharFotosForm();
+  desenharVideoForm();
   $("area-lista").hidden = true;
   $("caixa-config").hidden = true;
   $("btn-nova").hidden = true;
@@ -286,6 +292,29 @@ function desenharFotosForm() {
     </div>`).join("");
 }
 
+function limparVideoForm() {
+  if (videoForm.previa) URL.revokeObjectURL(videoForm.previa);
+  videoForm = { atual: null, arquivo: null, previa: null, removido: false };
+}
+
+/** Vídeo já enviado para o site (videos/…), que precisa ser apagado se for trocado. */
+function videoLocal(caminho) {
+  return caminho && !/^https?:\/\//i.test(caminho) ? caminho : null;
+}
+
+function desenharVideoForm() {
+  const local = videoLocal(videoForm.atual);
+  const src = videoForm.previa || (local && !videoForm.removido ? local : null);
+  $("form-video").innerHTML = src ? `
+    <div class="video-edicao">
+      <video src="${esc(src)}" controls preload="metadata" playsinline></video>
+      <div>
+        <div class="dica">${videoForm.arquivo ? `Novo vídeo: ${esc(videoForm.arquivo.name)} (${(videoForm.arquivo.size / 1048576).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} MB). Será enviado ao salvar.` : "Vídeo publicado."}</div>
+        <button type="button" class="botao pequeno perigo" id="btn-remover-video">Remover vídeo</button>
+      </div>
+    </div>` : "";
+}
+
 async function salvarFormulario(e) {
   e.preventDefault();
   const f = $("form-mesa").elements;
@@ -300,6 +329,8 @@ async function salvarFormulario(e) {
   const codigo = (f.codigo.value.trim() || (anterior ? anterior.codigo : proximoCodigo())).toUpperCase();
   if (dados.mesas.some((m) => m !== anterior && m.codigo.toUpperCase() === codigo)) return erro(`Já existe uma mesa com o código ${codigo}.`);
   const lugares = paraNumero(f.lugares.value);
+  const linkVideo = f.video_link.value.trim();
+  if (!videoForm.arquivo && linkVideo && !/^https?:\/\/\S+$/i.test(linkVideo)) return erro("O link do vídeo precisa começar com https:// (ex.: link do YouTube).");
 
   const botao = $("btn-salvar");
   botao.disabled = true;
@@ -317,6 +348,20 @@ async function salvarFormulario(e) {
     }
     for (const caminho of fotosRemovidas) extras[caminho] = null;
 
+    const videoAnterior = videoLocal(videoForm.atual);
+    let video = null;
+    if (videoForm.arquivo) {
+      $("form-progresso").textContent = "Preparando vídeo…";
+      const ext = (/\.(mp4|mov|webm|m4v)$/i.exec(videoForm.arquivo.name) || [, "mp4"])[1].toLowerCase();
+      video = `videos/${codigo.toLowerCase().replace(/[^a-z0-9-]/g, "")}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+      extras[video] = { base64: await blobParaBase64(videoForm.arquivo) };
+    } else if (linkVideo) {
+      video = linkVideo;
+    } else if (videoAnterior && !videoForm.removido) {
+      video = videoAnterior;
+    }
+    if (videoAnterior && video !== videoAnterior) extras[videoAnterior] = null;
+
     const mesa = limpar({
       codigo,
       nome: f.nome.value.trim(),
@@ -329,12 +374,14 @@ async function salvarFormulario(e) {
       preco_a_vista: paraNumero(f.preco_a_vista.value),
       status: f.status.value,
       fotos,
+      video,
     });
     const mesas = anterior ? dados.mesas.map((m) => (m === anterior ? mesa : m)) : [...dados.mesas, mesa];
 
-    $("form-progresso").textContent = "Enviando para o GitHub…";
+    $("form-progresso").textContent = videoForm.arquivo ? "Enviando para o GitHub… vídeos podem levar alguns minutos, não feche a página." : "Enviando para o GitHub…";
     await publicar({ ...dados, mesas }, `${anterior ? "Atualiza" : "Cadastra"} mesa ${codigo}`, extras);
     fotosForm.forEach((x) => x.previa && URL.revokeObjectURL(x.previa));
+    limparVideoForm();
     mostrarLista();
   } catch (err) {
     erro(err.status === 422 || err.status === 409 ? "O catálogo foi alterado em outro aparelho. Recarregue a página e tente de novo." : err.message);
@@ -354,10 +401,11 @@ async function acaoNaLista(e) {
   const apagar = e.target.closest("[data-apagar]");
   if (apagar) {
     const mesa = dados.mesas.find((m) => m.codigo === apagar.dataset.apagar);
-    if (!mesa || !confirm(`Apagar a mesa ${mesa.codigo} (${mesa.nome}) e as fotos dela?`)) return;
+    if (!mesa || !confirm(`Apagar a mesa ${mesa.codigo} (${mesa.nome}) e as fotos${mesa.video ? " e o vídeo" : ""} dela?`)) return;
     erroGeral("");
     try {
       const extras = Object.fromEntries(mesa.fotos.map((c) => [c, null]));
+      if (videoLocal(mesa.video)) extras[mesa.video] = null;
       await publicar({ ...dados, mesas: dados.mesas.filter((m) => m !== mesa) }, `Remove mesa ${mesa.codigo}`, extras);
       desenharLista();
     } catch (err) { erroGeral(err.message); }
@@ -534,6 +582,39 @@ $("form-fotos").addEventListener("click", (e) => {
     if (foto.previa) URL.revokeObjectURL(foto.previa);
   } else return;
   desenharFotosForm();
+});
+
+$("form-video-arquivo").addEventListener("change", (e) => {
+  const arquivo = e.target.files[0];
+  e.target.value = "";
+  if (!arquivo) return;
+  if (arquivo.size > VIDEO_MAX_MB * 1048576) {
+    $("form-erro").textContent = `Esse vídeo tem ${Math.round(arquivo.size / 1048576)} MB. O limite é ${VIDEO_MAX_MB} MB: grave um vídeo mais curto (até 1 minuto) ou envie para o YouTube e cole o link.`;
+    return;
+  }
+  $("form-erro").textContent = "";
+  if (videoForm.previa) URL.revokeObjectURL(videoForm.previa);
+  videoForm.arquivo = arquivo;
+  videoForm.previa = URL.createObjectURL(arquivo);
+  $("form-mesa").elements.video_link.value = "";
+  desenharVideoForm();
+});
+
+$("form-video").addEventListener("click", (e) => {
+  if (!e.target.closest("#btn-remover-video")) return;
+  if (videoForm.previa) URL.revokeObjectURL(videoForm.previa);
+  videoForm.arquivo = null;
+  videoForm.previa = null;
+  videoForm.removido = true;
+  desenharVideoForm();
+});
+
+$("form-mesa").elements.video_link.addEventListener("input", (e) => {
+  if (!e.target.value.trim() || !videoForm.arquivo) return;
+  URL.revokeObjectURL(videoForm.previa);
+  videoForm.arquivo = null;
+  videoForm.previa = null;
+  desenharVideoForm();
 });
 
 $("btn-config").addEventListener("click", (e) => {

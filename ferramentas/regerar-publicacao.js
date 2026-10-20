@@ -9,7 +9,7 @@ const ctx = { Intl, JSON, console };
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(repo, "assets/comum.js"), "utf8") + "\nthis.gerar = gerarArquivosPublicos;", ctx);
 
-const CAMPOS = ["codigo", "nome", "descricao", "madeira", "comprimento_cm", "largura_cm", "altura_cm", "lugares", "preco_a_vista", "status", "fotos"];
+const CAMPOS = ["codigo", "nome", "descricao", "madeira", "comprimento_cm", "largura_cm", "altura_cm", "lugares", "preco_a_vista", "status", "fotos", "video"];
 const atual = JSON.parse(fs.readFileSync(path.join(repo, "dados/mesas.json"), "utf8"));
 const estado = {
   loja: { ...atual.loja, ...(whatsapp ? { whatsapp } : {}) },

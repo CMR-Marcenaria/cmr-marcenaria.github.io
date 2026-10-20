@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/estilo.css?v=202610160122">
+  <link rel="stylesheet" href="assets/estilo.css?v=202610200900">
 </head>
 <body class="publico">
   <!-- Google Tag Manager (noscript) -->
@@ -63,7 +63,7 @@
     <a href="painel.html" class="link-lojista">Área do lojista</a>
   </div></footer>
 
-  <script src="assets/comum.js?v=202610160122"></script>
+  <script src="assets/comum.js?v=202610200900"></script>
   <script>
     let dados = null;
     // 0 = peças fora das faixas de mesa (cadeiras, bancos, mesas pequenas)
@@ -96,6 +96,7 @@
           <div class="foto">
             ${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}" loading="lazy">` : "<span>Foto em breve</span>"}
             <span class="etiqueta">Nº ${esc(m.codigo)}</span>
+            ${m.video ? `<span class="tem-video">▶ Vídeo</span>` : ""}
             ${m.status !== "disponivel" ? `<span class="selo selo-${m.status}">${STATUS_TEXTO[m.status]}</span>` : ""}
           </div>
           <div class="cartao-corpo">

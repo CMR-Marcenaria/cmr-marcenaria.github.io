@@ -34,6 +34,25 @@ function precoTexto(valor) {
   return valor == null ? "Sob consulta" : fmtMoeda.format(valor).replace(/ /g, " ");
 }
 
+/** ID de um link do YouTube (watch, youtu.be, shorts, embed, live), ou null. */
+function idYouTube(url) {
+  const r = /(?:youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/)|youtu\.be\/)([\w-]{11})/i.exec(String(url || ""));
+  return r ? r[1] : null;
+}
+
+/**
+ * Vídeo da mesa: arquivo enviado pelo painel (videos/…), link do YouTube ou outro link.
+ * Retorna { tipo: "arquivo" | "youtube" | "link", ... } ou null.
+ */
+function videoDaMesa(m) {
+  const v = String((m && m.video) || "").trim();
+  if (!v) return null;
+  const yt = idYouTube(v);
+  if (yt) return { tipo: "youtube", id: yt, url: v };
+  if (!/^https?:\/\//i.test(v) || /\.(mp4|webm|mov|m4v)(\?|#|$)/i.test(v)) return { tipo: "arquivo", src: v };
+  return { tipo: "link", url: v };
+}
+
 /** Escapa texto antes de colocar no HTML. */
 function esc(texto) {
   return String(texto ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -148,6 +167,7 @@ function gerarArquivosPublicos(estado, site) {
       preco_texto: precoTexto(m.preco_a_vista),
       link: linkDaMesa(m, site),
       fotos_url: m.fotos.map((f) => `${site}/${f}`),
+      video_url: m.video ? (/^https?:\/\//i.test(m.video) ? m.video : `${site}/${m.video}`) : null,
     };
   }).sort((a, b) => a.comprimento_cm - b.comprimento_cm);
 
@@ -181,6 +201,7 @@ function gerarArquivosPublicos(estado, site) {
       `  Valor à vista: ${m.preco_texto}`,
       `  Link: ${m.link}`,
       ...(m.fotos_url[0] ? [`  Foto: ${m.fotos_url[0]}`] : []),
+      ...(m.video_url ? [`  Vídeo: ${m.video_url}`] : []),
       "",
     );
   }

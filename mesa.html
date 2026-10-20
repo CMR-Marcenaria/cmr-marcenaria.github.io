@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/estilo.css?v=202610160122">
+  <link rel="stylesheet" href="assets/estilo.css?v=202610200900">
 </head>
 <body class="publico">
   <!-- Google Tag Manager (noscript) -->
@@ -41,7 +41,7 @@
     <a href="painel.html" class="link-lojista">Área do lojista</a>
   </div></footer>
 
-  <script src="assets/comum.js?v=202610160122"></script>
+  <script src="assets/comum.js?v=202610200900"></script>
   <script>
     const codigo = (new URLSearchParams(location.search).get("c") || "").trim().toUpperCase();
     const alvo = document.getElementById("mesa");
@@ -57,11 +57,28 @@
       const site = siteAtual();
       const whats = linkWhatsApp(dados.loja && dados.loja.whatsapp, mensagemInteresse(m, site));
       const linha = (rotulo, valor) => (valor ? `<dt>${rotulo}</dt><dd>${esc(valor)}</dd>` : "");
+      const video = videoDaMesa(m);
+      // Galeria: fotos e, no fim, o vídeo (se houver)
+      const itens = [...m.fotos.map((src) => ({ foto: src })), ...(video ? [{ video }] : [])];
+      const conteudo = (item, tocar) => {
+        if (item.foto) return `<img src="${esc(item.foto)}" alt="${esc(m.nome)}">`;
+        const v = item.video;
+        if (v.tipo === "youtube") return `<iframe src="https://www.youtube-nocookie.com/embed/${esc(v.id)}?rel=0&playsinline=1${tocar ? "&autoplay=1" : ""}" title="Vídeo da mesa" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+        if (v.tipo === "arquivo") return `<video src="${esc(v.src)}" controls playsinline preload="metadata"${tocar ? " autoplay" : ""}></video>`;
+        return `<a class="botao secundario" href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">▶ Assistir ao vídeo</a>`;
+      };
+      const miniatura = (item, i) => {
+        if (item.foto) return `<button class="${i === 0 ? "ativa" : ""}" data-i="${i}" aria-label="Foto ${i + 1}"><img src="${esc(item.foto)}" alt="" loading="lazy"></button>`;
+        const v = item.video;
+        const fundo = v.tipo === "youtube" ? `<img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="" loading="lazy">`
+          : v.tipo === "arquivo" ? `<video src="${esc(v.src)}#t=0.5" muted playsinline preload="metadata"></video>` : "";
+        return `<button class="mini-video ${i === 0 ? "ativa" : ""}" data-i="${i}" aria-label="Vídeo">${fundo}<span>▶ Vídeo</span></button>`;
+      };
 
       alvo.innerHTML = `<div class="detalhe">
         <div class="galeria">
-          <div class="foto principal" id="principal">${m.fotos[0] ? `<img src="${esc(m.fotos[0])}" alt="${esc(m.nome)}">` : "<span>Foto em breve</span>"}</div>
-          ${m.fotos.length > 1 ? `<div class="miniaturas">${m.fotos.map((f, i) => `<button class="${i === 0 ? "ativa" : ""}" data-i="${i}" aria-label="Foto ${i + 1}"><img src="${esc(f)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+          <div class="foto principal" id="principal">${itens[0] ? conteudo(itens[0], false) : "<span>Foto em breve</span>"}</div>
+          ${itens.length > 1 ? `<div class="miniaturas">${itens.map(miniatura).join("")}</div>` : ""}
         </div>
         <div class="ficha">
           <span class="codigo">Peça nº ${esc(m.codigo)}</span>
@@ -86,7 +103,9 @@
       btnCompartilhar.addEventListener("click", () => compartilharMesa(m, site, btnCompartilhar));
 
       alvo.querySelectorAll(".miniaturas button").forEach((b) => b.addEventListener("click", () => {
-        document.getElementById("principal").innerHTML = `<img src="${esc(m.fotos[b.dataset.i])}" alt="${esc(m.nome)}">`;
+        const item = itens[b.dataset.i];
+        if (item.video && item.video.tipo === "link") { window.open(item.video.url, "_blank", "noopener"); return; }
+        document.getElementById("principal").innerHTML = conteudo(item, true);
         alvo.querySelectorAll(".miniaturas button").forEach((x) => x.classList.toggle("ativa", x === b));
       }));
     }).catch((e) => { alvo.innerHTML = `<div class="vazio">${esc(e.message)}</div>`; });
