@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-20T21:42:00.398Z",
+  "atualizado_em": "2026-10-20T21:42:22.827Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 63,
+  "total_disponiveis": 62,
   "mesas": [
     {
       "codigo": "118",
@@ -1123,32 +1123,6 @@
       "link": "https://cmr-marcenaria.github.io/m/80",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/80-1-5sey0j.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "75",
-      "nome": "Mesa prancha",
-      "descricao": null,
-      "madeira": null,
-      "comprimento_cm": 300,
-      "largura_cm": 90,
-      "altura_cm": 80,
-      "lugares": 10,
-      "preco_a_vista": 3750,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/75-1-aopbw2.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 3,
-      "faixa_comprimento": "270–325 cm",
-      "medidas": "300 x 90 cm (altura 80 cm)",
-      "preco_texto": "R$ 3.750,00",
-      "link": "https://cmr-marcenaria.github.io/m/75",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/75-1-aopbw2.jpg"
       ],
       "video_url": null
     },
