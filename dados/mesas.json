@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-20T21:42:27.633Z",
+  "atualizado_em": "2026-10-20T21:42:48.938Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 62,
+  "total_disponiveis": 61,
   "mesas": [
     {
       "codigo": "118",
@@ -1435,32 +1435,6 @@
       "link": "https://cmr-marcenaria.github.io/m/114",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "16",
-      "nome": "Mesa prancha Angelin pedra",
-      "descricao": null,
-      "madeira": "Angelim pedra",
-      "comprimento_cm": 400,
-      "largura_cm": 95,
-      "altura_cm": 80,
-      "lugares": 14,
-      "preco_a_vista": 5350,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/16-1-bvwp0v.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 5,
-      "faixa_comprimento": "370–430 cm",
-      "medidas": "400 x 95 cm (altura 80 cm)",
-      "preco_texto": "R$ 5.350,00",
-      "link": "https://cmr-marcenaria.github.io/m/16",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/16-1-bvwp0v.jpg"
       ],
       "video_url": null
     },
