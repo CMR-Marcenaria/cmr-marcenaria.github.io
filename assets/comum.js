@@ -65,6 +65,16 @@ async function carregarCatalogo() {
   return r.json();
 }
 
+/**
+ * Lead: cada clique num botão de WhatsApp do catálogo vira o evento "clique_whatsapp"
+ * (Google Ads / Tag Manager), com o código da mesa quando houver.
+ */
+document.addEventListener("click", (e) => {
+  const a = e.target.closest && e.target.closest('a[href^="https://wa.me/"]');
+  if (!a || typeof gtag !== "function") return;
+  gtag("event", "clique_whatsapp", { mesa: a.dataset.mesa || null, pagina: location.pathname });
+});
+
 function linkWhatsApp(numero, mensagem) {
   const n = String(numero || "").replace(/\D/g, "");
   return n ? `https://wa.me/${n}?text=${encodeURIComponent(mensagem)}` : null;
