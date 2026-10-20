@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-20T11:21:17.519Z",
+  "atualizado_em": "2026-10-20T21:39:48.088Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 63,
+  "total_disponiveis": 64,
   "mesas": [
     {
       "codigo": "119",
@@ -22,6 +22,7 @@
       "fotos": [
         "fotos/119-j1fhxt.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -30,7 +31,8 @@
       "link": "https://cmr-marcenaria.github.io/m/119",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/119-j1fhxt.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "120",
@@ -46,6 +48,7 @@
       "fotos": [
         "fotos/120-exhe8h.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -54,7 +57,8 @@
       "link": "https://cmr-marcenaria.github.io/m/120",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/120-exhe8h.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "118",
@@ -70,6 +74,7 @@
       "fotos": [
         "fotos/118-ve6pgk.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -78,7 +83,8 @@
       "link": "https://cmr-marcenaria.github.io/m/118",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/118-ve6pgk.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "98",
@@ -94,6 +100,7 @@
       "fotos": [
         "fotos/98-1-h6004c.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -102,7 +109,8 @@
       "link": "https://cmr-marcenaria.github.io/m/98",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/98-1-h6004c.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "97",
@@ -118,6 +126,7 @@
       "fotos": [
         "fotos/97-1-a8g20z.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -126,7 +135,8 @@
       "link": "https://cmr-marcenaria.github.io/m/97",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/97-1-a8g20z.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "59",
@@ -142,6 +152,7 @@
       "fotos": [
         "fotos/59-1-qgvavv.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -150,7 +161,8 @@
       "link": "https://cmr-marcenaria.github.io/m/59",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/59-1-qgvavv.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "60",
@@ -166,6 +178,7 @@
       "fotos": [
         "fotos/60-1-r20fom.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -174,7 +187,8 @@
       "link": "https://cmr-marcenaria.github.io/m/60",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/60-1-r20fom.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "44",
@@ -190,6 +204,7 @@
       "fotos": [
         "fotos/44-1-i0h83o.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -198,7 +213,8 @@
       "link": "https://cmr-marcenaria.github.io/m/44",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/44-1-i0h83o.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "39",
@@ -214,6 +230,7 @@
       "fotos": [
         "fotos/39-1-ze1ba8.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -222,7 +239,8 @@
       "link": "https://cmr-marcenaria.github.io/m/39",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/39-1-ze1ba8.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "48",
@@ -238,6 +256,7 @@
       "fotos": [
         "fotos/48-1-p3swyv.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -246,7 +265,8 @@
       "link": "https://cmr-marcenaria.github.io/m/48",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/48-1-p3swyv.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "33",
@@ -262,6 +282,7 @@
       "fotos": [
         "fotos/33-1-04irmy.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -270,7 +291,8 @@
       "link": "https://cmr-marcenaria.github.io/m/33",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/33-1-04irmy.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "101",
@@ -286,6 +308,7 @@
       "fotos": [
         "fotos/101-1-rkos12.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -294,7 +317,8 @@
       "link": "https://cmr-marcenaria.github.io/m/101",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/101-1-rkos12.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "72",
@@ -310,6 +334,7 @@
       "fotos": [
         "fotos/72-1-vn5jsk.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -318,7 +343,8 @@
       "link": "https://cmr-marcenaria.github.io/m/72",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/72-1-vn5jsk.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "92",
@@ -334,6 +360,7 @@
       "fotos": [
         "fotos/92-1-ei3xu7.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -342,7 +369,8 @@
       "link": "https://cmr-marcenaria.github.io/m/92",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/92-1-ei3xu7.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "89",
@@ -358,6 +386,7 @@
       "fotos": [
         "fotos/89-1-bedyln.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": null,
       "faixa_comprimento": null,
@@ -366,7 +395,8 @@
       "link": "https://cmr-marcenaria.github.io/m/89",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/89-1-bedyln.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "112",
@@ -382,6 +412,7 @@
       "fotos": [
         "fotos/112-1-8h2ef1.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -390,7 +421,8 @@
       "link": "https://cmr-marcenaria.github.io/m/112",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/112-1-8h2ef1.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "96",
@@ -406,6 +438,7 @@
       "fotos": [
         "fotos/96-1-ppiwnn.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -414,7 +447,8 @@
       "link": "https://cmr-marcenaria.github.io/m/96",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/96-1-ppiwnn.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "94",
@@ -430,6 +464,7 @@
       "fotos": [
         "fotos/94-1-638k6h.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -438,7 +473,8 @@
       "link": "https://cmr-marcenaria.github.io/m/94",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/94-1-638k6h.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "90",
@@ -454,6 +490,7 @@
       "fotos": [
         "fotos/90-1-qcjfqc.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -462,7 +499,8 @@
       "link": "https://cmr-marcenaria.github.io/m/90",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/90-1-qcjfqc.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "88",
@@ -478,6 +516,7 @@
       "fotos": [
         "fotos/88-1-enwhhh.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -486,7 +525,8 @@
       "link": "https://cmr-marcenaria.github.io/m/88",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/88-1-enwhhh.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "85",
@@ -502,6 +542,7 @@
       "fotos": [
         "fotos/85-1-ecsrsa.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -510,7 +551,8 @@
       "link": "https://cmr-marcenaria.github.io/m/85",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/85-1-ecsrsa.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "76",
@@ -526,6 +568,7 @@
       "fotos": [
         "fotos/76-1-6d1eac.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -534,7 +577,8 @@
       "link": "https://cmr-marcenaria.github.io/m/76",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/76-1-6d1eac.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "71",
@@ -550,6 +594,7 @@
       "fotos": [
         "fotos/71-1-yd7vdy.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -558,7 +603,8 @@
       "link": "https://cmr-marcenaria.github.io/m/71",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/71-1-yd7vdy.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "70",
@@ -574,6 +620,7 @@
       "fotos": [
         "fotos/70-1-snv36a.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -582,7 +629,8 @@
       "link": "https://cmr-marcenaria.github.io/m/70",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/70-1-snv36a.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "67",
@@ -598,6 +646,7 @@
       "fotos": [
         "fotos/67-1-8u60jt.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -606,7 +655,8 @@
       "link": "https://cmr-marcenaria.github.io/m/67",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/67-1-8u60jt.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "51",
@@ -622,6 +672,7 @@
       "fotos": [
         "fotos/51-1-n2m8yl.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -630,7 +681,8 @@
       "link": "https://cmr-marcenaria.github.io/m/51",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/51-1-n2m8yl.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "32",
@@ -646,6 +698,7 @@
       "fotos": [
         "fotos/32-1-1qv47l.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -654,7 +707,8 @@
       "link": "https://cmr-marcenaria.github.io/m/32",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/32-1-1qv47l.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "14",
@@ -670,6 +724,7 @@
       "fotos": [
         "fotos/14-1-f6a461.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -678,7 +733,8 @@
       "link": "https://cmr-marcenaria.github.io/m/14",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/14-1-f6a461.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "13",
@@ -694,6 +750,7 @@
       "fotos": [
         "fotos/13-1-bxaz21.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 1,
       "faixa_comprimento": "200–225 cm",
@@ -702,7 +759,8 @@
       "link": "https://cmr-marcenaria.github.io/m/13",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/13-1-bxaz21.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "95",
@@ -718,6 +776,7 @@
       "fotos": [
         "fotos/95-1-67x4v9.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -726,7 +785,8 @@
       "link": "https://cmr-marcenaria.github.io/m/95",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/95-1-67x4v9.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "93",
@@ -742,6 +802,7 @@
       "fotos": [
         "fotos/93-1-1hz0il.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -750,7 +811,8 @@
       "link": "https://cmr-marcenaria.github.io/m/93",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/93-1-1hz0il.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "84",
@@ -766,6 +828,7 @@
       "fotos": [
         "fotos/84-1-qa3a8q.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -774,7 +837,8 @@
       "link": "https://cmr-marcenaria.github.io/m/84",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/84-1-qa3a8q.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "78",
@@ -790,6 +854,7 @@
       "fotos": [
         "fotos/78-1-pxusgl.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -798,7 +863,8 @@
       "link": "https://cmr-marcenaria.github.io/m/78",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/78-1-pxusgl.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "06",
@@ -814,6 +880,7 @@
       "fotos": [
         "fotos/06-1-0dakmr.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -822,7 +889,8 @@
       "link": "https://cmr-marcenaria.github.io/m/06",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/06-1-0dakmr.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "10",
@@ -838,6 +906,7 @@
       "fotos": [
         "fotos/10-1-xlpbkv.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -846,7 +915,8 @@
       "link": "https://cmr-marcenaria.github.io/m/10",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/10-1-xlpbkv.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "58",
@@ -862,6 +932,7 @@
       "fotos": [
         "fotos/58-1-dkv1mb.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 2,
       "faixa_comprimento": "225–270 cm",
@@ -870,7 +941,8 @@
       "link": "https://cmr-marcenaria.github.io/m/58",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/58-1-dkv1mb.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "110",
@@ -886,6 +958,7 @@
       "fotos": [
         "fotos/110-1-dc5obe.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -894,7 +967,8 @@
       "link": "https://cmr-marcenaria.github.io/m/110",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/110-1-dc5obe.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "05",
@@ -910,6 +984,7 @@
       "fotos": [
         "fotos/05-1-gj6to6.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -918,7 +993,8 @@
       "link": "https://cmr-marcenaria.github.io/m/05",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/05-1-gj6to6.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "113",
@@ -934,6 +1010,7 @@
       "fotos": [
         "fotos/113-1-rhaolm.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -942,7 +1019,8 @@
       "link": "https://cmr-marcenaria.github.io/m/113",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/113-1-rhaolm.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "56",
@@ -958,6 +1036,7 @@
       "fotos": [
         "fotos/56-1-x0k4bl.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -966,7 +1045,8 @@
       "link": "https://cmr-marcenaria.github.io/m/56",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/56-1-x0k4bl.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "111",
@@ -982,6 +1062,7 @@
       "fotos": [
         "fotos/111-1-4njyy8.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -990,7 +1071,8 @@
       "link": "https://cmr-marcenaria.github.io/m/111",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/111-1-4njyy8.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "108",
@@ -1006,6 +1088,7 @@
       "fotos": [
         "fotos/108-1-bwz2c6.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1014,7 +1097,8 @@
       "link": "https://cmr-marcenaria.github.io/m/108",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/108-1-bwz2c6.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "107",
@@ -1030,6 +1114,7 @@
       "fotos": [
         "fotos/107-1-hq8f1g.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1038,7 +1123,8 @@
       "link": "https://cmr-marcenaria.github.io/m/107",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/107-1-hq8f1g.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "80",
@@ -1054,6 +1140,7 @@
       "fotos": [
         "fotos/80-1-5sey0j.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1062,7 +1149,8 @@
       "link": "https://cmr-marcenaria.github.io/m/80",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/80-1-5sey0j.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "75",
@@ -1078,6 +1166,7 @@
       "fotos": [
         "fotos/75-1-aopbw2.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1086,7 +1175,8 @@
       "link": "https://cmr-marcenaria.github.io/m/75",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/75-1-aopbw2.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "73",
@@ -1102,6 +1192,7 @@
       "fotos": [
         "fotos/73-1-8owzc3.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1110,7 +1201,8 @@
       "link": "https://cmr-marcenaria.github.io/m/73",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/73-1-8owzc3.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "69",
@@ -1126,6 +1218,7 @@
       "fotos": [
         "fotos/69-1-r30w54.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1134,7 +1227,8 @@
       "link": "https://cmr-marcenaria.github.io/m/69",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/69-1-r30w54.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "55",
@@ -1150,6 +1244,7 @@
       "fotos": [
         "fotos/55-1-i6qdh8.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1158,7 +1253,8 @@
       "link": "https://cmr-marcenaria.github.io/m/55",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/55-1-i6qdh8.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "24",
@@ -1174,6 +1270,7 @@
       "fotos": [
         "fotos/24-1-uatpqf.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1182,7 +1279,8 @@
       "link": "https://cmr-marcenaria.github.io/m/24",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/24-1-uatpqf.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "21",
@@ -1198,6 +1296,7 @@
       "fotos": [
         "fotos/21-1-d3nluq.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1206,7 +1305,8 @@
       "link": "https://cmr-marcenaria.github.io/m/21",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/21-1-d3nluq.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "19",
@@ -1222,6 +1322,7 @@
       "fotos": [
         "fotos/19-1-09nbjx.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1230,7 +1331,8 @@
       "link": "https://cmr-marcenaria.github.io/m/19",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/19-1-09nbjx.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "08",
@@ -1246,6 +1348,7 @@
       "fotos": [
         "fotos/08-1-afihvo.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1254,7 +1357,8 @@
       "link": "https://cmr-marcenaria.github.io/m/08",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/08-1-afihvo.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "04",
@@ -1270,6 +1374,7 @@
       "fotos": [
         "fotos/04-1-bo95ic.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1278,7 +1383,8 @@
       "link": "https://cmr-marcenaria.github.io/m/04",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/04-1-bo95ic.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "18",
@@ -1294,6 +1400,7 @@
       "fotos": [
         "fotos/18-1-b4mgnh.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 3,
       "faixa_comprimento": "270–325 cm",
@@ -1302,7 +1409,8 @@
       "link": "https://cmr-marcenaria.github.io/m/18",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/18-1-b4mgnh.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "115",
@@ -1318,6 +1426,7 @@
       "fotos": [
         "fotos/115-1uauhe.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 4,
       "faixa_comprimento": "325–370 cm",
@@ -1326,7 +1435,8 @@
       "link": "https://cmr-marcenaria.github.io/m/115",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "109",
@@ -1342,6 +1452,7 @@
       "fotos": [
         "fotos/109-1-bh8jp2.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 4,
       "faixa_comprimento": "325–370 cm",
@@ -1350,7 +1461,8 @@
       "link": "https://cmr-marcenaria.github.io/m/109",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/109-1-bh8jp2.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "114",
@@ -1366,6 +1478,7 @@
       "fotos": [
         "fotos/114-l8n42y.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 5,
       "faixa_comprimento": "370–430 cm",
@@ -1374,7 +1487,8 @@
       "link": "https://cmr-marcenaria.github.io/m/114",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/114-l8n42y.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "16",
@@ -1390,6 +1504,7 @@
       "fotos": [
         "fotos/16-1-bvwp0v.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 5,
       "faixa_comprimento": "370–430 cm",
@@ -1398,7 +1513,8 @@
       "link": "https://cmr-marcenaria.github.io/m/16",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/16-1-bvwp0v.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "117",
@@ -1414,6 +1530,7 @@
       "fotos": [
         "fotos/117-oyq0qg.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 5,
       "faixa_comprimento": "370–430 cm",
@@ -1422,7 +1539,8 @@
       "link": "https://cmr-marcenaria.github.io/m/117",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/117-oyq0qg.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "62",
@@ -1438,6 +1556,7 @@
       "fotos": [
         "fotos/62-1-wktujs.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 5,
       "faixa_comprimento": "370–430 cm",
@@ -1446,7 +1565,8 @@
       "link": "https://cmr-marcenaria.github.io/m/62",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/62-1-wktujs.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "116",
@@ -1462,6 +1582,7 @@
       "fotos": [
         "fotos/116-l3lwlh.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 6,
       "faixa_comprimento": "430–600 cm",
@@ -1470,7 +1591,8 @@
       "link": "https://cmr-marcenaria.github.io/m/116",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/116-l3lwlh.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "105",
@@ -1486,6 +1608,7 @@
       "fotos": [
         "fotos/105-1-5zvuoz.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 6,
       "faixa_comprimento": "430–600 cm",
@@ -1494,7 +1617,8 @@
       "link": "https://cmr-marcenaria.github.io/m/105",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/105-1-5zvuoz.jpg"
-      ]
+      ],
+      "video_url": null
     },
     {
       "codigo": "30",
@@ -1510,6 +1634,7 @@
       "fotos": [
         "fotos/30-1-2g7pit.jpg"
       ],
+      "video": null,
       "disponivel": true,
       "categoria": 6,
       "faixa_comprimento": "430–600 cm",
@@ -1518,7 +1643,36 @@
       "link": "https://cmr-marcenaria.github.io/m/30",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/30-1-2g7pit.jpg"
-      ]
+      ],
+      "video_url": null
+    },
+    {
+      "codigo": "121",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 600,
+      "largura_cm": 100,
+      "altura_cm": 0.8,
+      "lugares": 20,
+      "preco_a_vista": 13200,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/121-10gq9i.jpg",
+        "fotos/121-k67ob3.jpg"
+      ],
+      "video": "videos/121-ce0e51.mov",
+      "disponivel": true,
+      "categoria": 6,
+      "faixa_comprimento": "430–600 cm",
+      "medidas": "600 x 100 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 13.200,00",
+      "link": "https://cmr-marcenaria.github.io/m/121",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/121-10gq9i.jpg",
+        "https://cmr-marcenaria.github.io/fotos/121-k67ob3.jpg"
+      ],
+      "video_url": "https://cmr-marcenaria.github.io/videos/121-ce0e51.mov"
     }
   ]
 }
