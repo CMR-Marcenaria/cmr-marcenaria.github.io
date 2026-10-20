@@ -1,5 +1,5 @@
 CATÁLOGO CMR MARCENARIA — MESAS RÚSTICAS DISPONÍVEIS
-Atualizado em 20/10/2026, 18:41. Total disponível: 64.
+Atualizado em 20/10/2026, 18:42. Total disponível: 63.
 Valores à vista. Só estão listadas mesas prontas e disponíveis para venda.
 Ao responder o cliente, envie o nome, as medidas, o valor e o link da mesa.
 WhatsApp da CMR para fechar a compra: +5545920016018
@@ -218,13 +218,6 @@ WhatsApp da CMR para fechar a compra: +5545920016018
   Valor à vista: R$ 3.450,00
   Link: https://cmr-marcenaria.github.io/m/10
   Foto: https://cmr-marcenaria.github.io/fotos/10-1-xlpbkv.jpg
-
-[58] Mesa prancha pequiá
-  Medidas: 265 x 100 cm (altura 80 cm) · Categoria 2 · 8 lugares
-  Madeira: Pequiá
-  Valor à vista: R$ 3.550,00
-  Link: https://cmr-marcenaria.github.io/m/58
-  Foto: https://cmr-marcenaria.github.io/fotos/58-1-dkv1mb.jpg
 
 [110] Mesa prancha
   Medidas: 270 x 90 cm (altura 80 cm) · Categoria 3 · 8 lugares

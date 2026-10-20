@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-20T21:41:34.002Z",
+  "atualizado_em": "2026-10-20T21:42:00.398Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 64,
+  "total_disponiveis": 63,
   "mesas": [
     {
       "codigo": "118",
@@ -863,32 +863,6 @@
       "link": "https://cmr-marcenaria.github.io/m/10",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/10-1-xlpbkv.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "58",
-      "nome": "Mesa prancha pequiá",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 265,
-      "largura_cm": 100,
-      "altura_cm": 80,
-      "lugares": 8,
-      "preco_a_vista": 3550,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/58-1-dkv1mb.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 2,
-      "faixa_comprimento": "225–270 cm",
-      "medidas": "265 x 100 cm (altura 80 cm)",
-      "preco_texto": "R$ 3.550,00",
-      "link": "https://cmr-marcenaria.github.io/m/58",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/58-1-dkv1mb.jpg"
       ],
       "video_url": null
     },
