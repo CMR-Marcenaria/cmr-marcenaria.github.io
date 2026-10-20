@@ -4,7 +4,7 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-19T22:13:55.090Z",
+  "atualizado_em": "2026-10-20T11:21:17.519Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
   "total_disponiveis": 63,
   "mesas": [
@@ -41,7 +41,7 @@
       "largura_cm": 1,
       "altura_cm": 0.8,
       "lugares": 10,
-      "preco_a_vista": 5.6,
+      "preco_a_vista": 5600,
       "status": "disponivel",
       "fotos": [
         "fotos/120-exhe8h.jpg"
@@ -50,7 +50,7 @@
       "categoria": null,
       "faixa_comprimento": null,
       "medidas": "3 x 1 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 5,60",
+      "preco_texto": "R$ 5.600,00",
       "link": "https://cmr-marcenaria.github.io/m/120",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/120-exhe8h.jpg"
