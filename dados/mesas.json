@@ -4,7 +4,7 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-20T21:40:45.781Z",
+  "atualizado_em": "2026-10-20T21:41:06.942Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
   "total_disponiveis": 64,
   "mesas": [
@@ -31,32 +31,6 @@
       "link": "https://cmr-marcenaria.github.io/m/119",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/119-j1fhxt.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "120",
-      "nome": "Mesa e bancos",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 3,
-      "largura_cm": 1,
-      "altura_cm": 0.8,
-      "lugares": 10,
-      "preco_a_vista": 5600,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/120-exhe8h.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": null,
-      "faixa_comprimento": null,
-      "medidas": "3 x 1 cm (altura 0,8 cm)",
-      "preco_texto": "R$ 5.600,00",
-      "link": "https://cmr-marcenaria.github.io/m/120",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/120-exhe8h.jpg"
       ],
       "video_url": null
     },
@@ -1045,6 +1019,32 @@
       "link": "https://cmr-marcenaria.github.io/m/56",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/56-1-x0k4bl.jpg"
+      ],
+      "video_url": null
+    },
+    {
+      "codigo": "120",
+      "nome": "Mesa e bancos",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 300,
+      "largura_cm": 100,
+      "altura_cm": 0.8,
+      "lugares": 10,
+      "preco_a_vista": 5600,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/120-exhe8h.jpg"
+      ],
+      "video": null,
+      "disponivel": true,
+      "categoria": 3,
+      "faixa_comprimento": "270–325 cm",
+      "medidas": "300 x 100 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 5.600,00",
+      "link": "https://cmr-marcenaria.github.io/m/120",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/120-exhe8h.jpg"
       ],
       "video_url": null
     },
