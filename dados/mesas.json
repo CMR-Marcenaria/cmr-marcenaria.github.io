@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-21T22:13:01.311Z",
+  "atualizado_em": "2026-10-21T22:13:39.965Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 60,
+  "total_disponiveis": 59,
   "mesas": [
     {
       "codigo": "118",
@@ -1331,32 +1331,6 @@
       "link": "https://cmr-marcenaria.github.io/m/122",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/122-7keb8q.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "18",
-      "nome": "Mesa prancha garapeira",
-      "descricao": null,
-      "madeira": "Garapeira",
-      "comprimento_cm": 320,
-      "largura_cm": 90,
-      "altura_cm": 80,
-      "lugares": 10,
-      "preco_a_vista": 4000,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/18-1-b4mgnh.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 3,
-      "faixa_comprimento": "270–325 cm",
-      "medidas": "320 x 90 cm (altura 80 cm)",
-      "preco_texto": "R$ 4.000,00",
-      "link": "https://cmr-marcenaria.github.io/m/18",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/18-1-b4mgnh.jpg"
       ],
       "video_url": null
     },
