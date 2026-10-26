@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-26T20:16:18.769Z",
+  "atualizado_em": "2026-10-26T20:17:02.886Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 62,
+  "total_disponiveis": 63,
   "mesas": [
     {
       "codigo": "118",
@@ -863,6 +863,32 @@
       "link": "https://cmr-marcenaria.github.io/m/123",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/123-xfrr81.jpg"
+      ],
+      "video_url": null
+    },
+    {
+      "codigo": "127",
+      "nome": "Mesa + 8 cadeiras",
+      "descricao": null,
+      "madeira": "Pequiá",
+      "comprimento_cm": 250,
+      "largura_cm": 0.9,
+      "altura_cm": 0.8,
+      "lugares": 8,
+      "preco_a_vista": 4740,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/127-wah82s.jpg"
+      ],
+      "video": null,
+      "disponivel": true,
+      "categoria": 2,
+      "faixa_comprimento": "225–270 cm",
+      "medidas": "250 x 0,9 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 4.740,00",
+      "link": "https://cmr-marcenaria.github.io/m/127",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/127-wah82s.jpg"
       ],
       "video_url": null
     },
