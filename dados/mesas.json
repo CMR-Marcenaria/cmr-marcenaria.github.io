@@ -4,10 +4,36 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-26T20:17:02.886Z",
+  "atualizado_em": "2026-10-26T20:17:37.839Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 63,
+  "total_disponiveis": 64,
   "mesas": [
+    {
+      "codigo": "128",
+      "nome": "Mesa redonda",
+      "descricao": null,
+      "madeira": null,
+      "comprimento_cm": 1.1,
+      "largura_cm": 1.1,
+      "altura_cm": 0.8,
+      "lugares": 4,
+      "preco_a_vista": 3100,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/128-x18qp3.jpg"
+      ],
+      "video": null,
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "1,1 x 1,1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 3.100,00",
+      "link": "https://cmr-marcenaria.github.io/m/128",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/128-x18qp3.jpg"
+      ],
+      "video_url": null
+    },
     {
       "codigo": "118",
       "nome": "Mesa cascata",
