@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-11-03T16:49:15.337Z",
+  "atualizado_em": "2026-11-03T16:49:44.976Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 59,
+  "total_disponiveis": 58,
   "mesas": [
     {
       "codigo": "128",
@@ -1279,32 +1279,6 @@
       "link": "https://cmr-marcenaria.github.io/m/122",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/122-7keb8q.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "115",
-      "nome": "Mesa cascata",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 330,
-      "largura_cm": 100,
-      "altura_cm": 80,
-      "lugares": 10,
-      "preco_a_vista": 8750,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/115-1uauhe.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 4,
-      "faixa_comprimento": "325–370 cm",
-      "medidas": "330 x 100 cm (altura 80 cm)",
-      "preco_texto": "R$ 8.750,00",
-      "link": "https://cmr-marcenaria.github.io/m/115",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/115-1uauhe.jpg"
       ],
       "video_url": null
     },
