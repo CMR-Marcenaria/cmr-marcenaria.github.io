@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-11-03T16:50:44.199Z",
+  "atualizado_em": "2026-11-03T16:51:29.885Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 57,
+  "total_disponiveis": 58,
   "mesas": [
     {
       "codigo": "128",
@@ -83,6 +83,32 @@
       "link": "https://cmr-marcenaria.github.io/m/129",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/129-8ytq02.jpg"
+      ],
+      "video_url": null
+    },
+    {
+      "codigo": "130",
+      "nome": "Mesa cascata",
+      "descricao": null,
+      "madeira": "Garapeira",
+      "comprimento_cm": 6.4,
+      "largura_cm": 1,
+      "altura_cm": 0.8,
+      "lugares": 22,
+      "preco_a_vista": 13900,
+      "status": "disponivel",
+      "fotos": [
+        "fotos/130-4pnszi.jpg"
+      ],
+      "video": null,
+      "disponivel": true,
+      "categoria": null,
+      "faixa_comprimento": null,
+      "medidas": "6,4 x 1 cm (altura 0,8 cm)",
+      "preco_texto": "R$ 13.900,00",
+      "link": "https://cmr-marcenaria.github.io/m/130",
+      "fotos_url": [
+        "https://cmr-marcenaria.github.io/fotos/130-4pnszi.jpg"
       ],
       "video_url": null
     },
