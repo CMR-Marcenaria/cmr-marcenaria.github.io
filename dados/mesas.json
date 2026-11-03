@@ -4,9 +4,9 @@
     "whatsapp": "5545920016018"
   },
   "site": "https://cmr-marcenaria.github.io",
-  "atualizado_em": "2026-10-26T20:17:37.839Z",
+  "atualizado_em": "2026-11-03T16:48:42.582Z",
   "observacao": "Valores à vista. Só mesas com status 'disponivel' podem ser vendidas; 'reservado' e 'vendido' não estão disponíveis.",
-  "total_disponiveis": 64,
+  "total_disponiveis": 63,
   "mesas": [
     {
       "codigo": "128",
@@ -473,32 +473,6 @@
       "link": "https://cmr-marcenaria.github.io/m/88",
       "fotos_url": [
         "https://cmr-marcenaria.github.io/fotos/88-1-enwhhh.jpg"
-      ],
-      "video_url": null
-    },
-    {
-      "codigo": "85",
-      "nome": "Mesa Pequia",
-      "descricao": null,
-      "madeira": "Pequiá",
-      "comprimento_cm": 200,
-      "largura_cm": 95,
-      "altura_cm": 80,
-      "lugares": 6,
-      "preco_a_vista": 3290,
-      "status": "disponivel",
-      "fotos": [
-        "fotos/85-1-ecsrsa.jpg"
-      ],
-      "video": null,
-      "disponivel": true,
-      "categoria": 1,
-      "faixa_comprimento": "200–225 cm",
-      "medidas": "200 x 95 cm (altura 80 cm)",
-      "preco_texto": "R$ 3.290,00",
-      "link": "https://cmr-marcenaria.github.io/m/85",
-      "fotos_url": [
-        "https://cmr-marcenaria.github.io/fotos/85-1-ecsrsa.jpg"
       ],
       "video_url": null
     },
